@@ -1,0 +1,5 @@
+/Users/langlib/Desktop/oclint/build/oclint-core/CMakeFiles/intrinsics_gen.dir
+/Users/langlib/Desktop/oclint/build/oclint-core/CMakeFiles/ALL_BUILD.dir
+/Users/langlib/Desktop/oclint/build/oclint-core/CMakeFiles/ZERO_CHECK.dir
+/Users/langlib/Desktop/oclint/build/oclint-core/lib/CMakeFiles/OCLintRuleSet.dir
+/Users/langlib/Desktop/oclint/build/oclint-core/lib/CMakeFiles/OCLintCore.dir

@@ -1,0 +1,9 @@
+/Users/langlib/Desktop/oclint/build/oclint-reporters/CMakeFiles/intrinsics_gen.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/CMakeFiles/ALL_BUILD.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/CMakeFiles/ZERO_CHECK.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeFiles/PMDReporter.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeFiles/XcodeReporter.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeFiles/JSONReporter.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeFiles/XMLReporter.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeFiles/HTMLReporter.dir
+/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeFiles/TextReporter.dir

@@ -1,0 +1,1940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7FE9696D1E4B4558BBE8DA90 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				46E301A203574140914C7FE5 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		800B0AB8E0CC4918AF6EB718 /* intrinsics_gen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7A5F133292F4762BBBD327E /* Build configuration list for PBXAggregateTarget "intrinsics_gen" */;
+			buildPhases = (
+			);
+			dependencies = (
+				779C5F2FB5244464AD121952 /* PBXTargetDependency */,
+			);
+			name = intrinsics_gen;
+			productName = intrinsics_gen;
+		};
+		C6E6EAC2574A4E5293F54C09 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5BF7405DF1234EA6B6090532 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DA5C2B8372BE44D19E25CAE2 /* CMake Rules */,
+			);
+			dependencies = (
+				1541F68851F84A89A68BD187 /* PBXTargetDependency */,
+				11D93F47695A4B818A70C11E /* PBXTargetDependency */,
+				8227F92D0A3F4B878A3C43AC /* PBXTargetDependency */,
+				C71065F0A7AE4242B661A1C3 /* PBXTargetDependency */,
+				854F1C83F92A48BEB140C51A /* PBXTargetDependency */,
+				5C95ACF207AC4B43A4864EF9 /* PBXTargetDependency */,
+				250D9805EB624F1498100DB6 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A0BDC3CB6E648A68A357ABE /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = FED95A89225E467AB9F15451 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */; };
+		0F9F37B98C664CF98D2935D0 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XMLReporter.cpp */ = {isa = PBXBuildFile; fileRef = 0BD0E4EBD2C54F41A7EC60F1 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XMLReporter.cpp */; };
+		260F1B47FD9645F98262FAEB /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B2890E1F1E6C41799B91187E /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */; };
+		2C8876827B444B6A9B436116 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XcodeReporter.cpp */ = {isa = PBXBuildFile; fileRef = AF6A6F8A34454D67932748EC /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XcodeReporter.cpp */; };
+		354C627080C2434EB7AE6A8D /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/PMDReporter.cpp */ = {isa = PBXBuildFile; fileRef = CF768BD76AEF432B991199A2 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/PMDReporter.cpp */; };
+		4646272DF43944A9AF3506E0 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 59C7351471A44AFDA9D861EB /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */; };
+		5878F9BB78464E6AB88803E5 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 88299B6D4CE94EB084A7C6E3 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */; };
+		88DE39B6B62C457BA4422457 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/HTMLReporter.cpp */ = {isa = PBXBuildFile; fileRef = 78BBA620189542DC982EFF9E /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/HTMLReporter.cpp */; };
+		B013BE17A8D148609A1E87D4 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9A36F1BAB5F7422DA8513BA8 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */; };
+		C58648BB6FA8480684608434 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/JSONReporter.cpp */ = {isa = PBXBuildFile; fileRef = E75A8457051F48C4BE3CFFA4 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/JSONReporter.cpp */; };
+		CB8AA5F1441A4600B79E29BE /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AFFA8B7C1A9046C08D68A5D9 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */; };
+		D64F9D6CEC594D0D9C65E6ED /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/TextReporter.cpp */ = {isa = PBXBuildFile; fileRef = B903377C122043678AC75CCF /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/TextReporter.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3AA12852FDF34D9BBD2CF196 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		5E5B804B1B314EC8866C09C9 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		6A73BDDA2DE5489BA0BEC78D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		AFE7680AD5434959AD1ADDCA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0AE011AD35F14437B69008E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		0CF84B332AD74D65BBC78036 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34F44A4BFA54A558AE63451;
+			remoteInfo = HTMLReporter;
+		};
+		180EF2CCED8D4F55ADB417ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 230534315D394E8584C6D377;
+			remoteInfo = TextReporter;
+		};
+		1FF70298CB7C4566B9114CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		49377DA226CA4DE5B97557DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE4CFB464FB43E4B13EEFE1;
+			remoteInfo = XcodeReporter;
+		};
+		7C39673C05504C87B7604796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		89D787D5A01B438B98247358 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		978E083B630A410EB82A88FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		C4AE14DC7014471A86AAEDC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18832ADAD11D4AA5B27D5409;
+			remoteInfo = PMDReporter;
+		};
+		D594DF8C0F4F4CC59D0A0D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		DB9208109E754F60A36C1FD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E14BDAA989A34D3590CF3D71;
+			remoteInfo = XMLReporter;
+		};
+		F77318ACCE6B41A696A12E04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		F84FC25D762F489EA89094D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B50A356D93D4D0A882D69C1;
+			remoteInfo = ZERO_CHECK;
+		};
+		FB10090AD97A4092A380D548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B88B04BA57445DE845CB6E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749BEF7998294591A6273120;
+			remoteInfo = JSONReporter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD0E4EBD2C54F41A7EC60F1 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XMLReporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XMLReporter.cpp; path = reporters/XMLReporter.cpp; sourceTree = SOURCE_ROOT; };
+		2D5C3D4FF7AA4081908C7E5F /* /Users/langlib/Desktop/oclint/oclint-reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3B79664A718F42A5B16FA097 /* /Users/langlib/Desktop/oclint/oclint-reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		59C7351471A44AFDA9D861EB /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = reporters/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		655C3EF3BCB44A2DA5F3247B /* HTMLReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libHTMLReporter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BBA620189542DC982EFF9E /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/HTMLReporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = HTMLReporter.cpp; path = reporters/HTMLReporter.cpp; sourceTree = SOURCE_ROOT; };
+		88299B6D4CE94EB084A7C6E3 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = reporters/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		9A36F1BAB5F7422DA8513BA8 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = reporters/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A7638CE7D48E47B79EE1B6CB /* PMDReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libPMDReporter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF6A6F8A34454D67932748EC /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XcodeReporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = XcodeReporter.cpp; path = reporters/XcodeReporter.cpp; sourceTree = SOURCE_ROOT; };
+		AFFA8B7C1A9046C08D68A5D9 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = reporters/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B2890E1F1E6C41799B91187E /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = reporters/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B903377C122043678AC75CCF /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/TextReporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = TextReporter.cpp; path = reporters/TextReporter.cpp; sourceTree = SOURCE_ROOT; };
+		CA35D40C1FB14B40B28575C8 /* TextReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libTextReporter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF768BD76AEF432B991199A2 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/PMDReporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = PMDReporter.cpp; path = reporters/PMDReporter.cpp; sourceTree = SOURCE_ROOT; };
+		DD237F1987D2457EB61133A9 /* XcodeReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libXcodeReporter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		E75A8457051F48C4BE3CFFA4 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/JSONReporter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = JSONReporter.cpp; path = reporters/JSONReporter.cpp; sourceTree = SOURCE_ROOT; };
+		F5BC0C60DEAD4B5B83B31CF7 /* JSONReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libJSONReporter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC92E6E7E7A4AE0B1A1BEF6 /* XMLReporter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libXMLReporter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED95A89225E467AB9F15451 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = reporters/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0F987851882A488AB5BB4608 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				B903377C122043678AC75CCF /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/TextReporter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		1E54CB1F65F94781B9DADFC3 /* PMDReporter */ = {
+			isa = PBXGroup;
+			children = (
+				9F6FFE2B8BAF4E919CA1F1A5 /* Source Files */,
+				88299B6D4CE94EB084A7C6E3 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */,
+			);
+			name = PMDReporter;
+			sourceTree = "<group>";
+		};
+		2F19BB238952470281C912EA /* intrinsics_gen */ = {
+			isa = PBXGroup;
+			children = (
+				3B79664A718F42A5B16FA097 /* /Users/langlib/Desktop/oclint/oclint-reporters/CMakeLists.txt */,
+			);
+			name = intrinsics_gen;
+			sourceTree = "<group>";
+		};
+		3A1093DF830A476084A5C780 = {
+			isa = PBXGroup;
+			children = (
+				2F19BB238952470281C912EA /* intrinsics_gen */,
+				A337780872864C7897A5C708 /* ALL_BUILD */,
+				1E54CB1F65F94781B9DADFC3 /* PMDReporter */,
+				8ED990D329BF45D6BA3D672A /* XcodeReporter */,
+				4350200EF557446888F2A21D /* JSONReporter */,
+				D64C5E551E384A1BA90A5E6E /* XMLReporter */,
+				55B29BD63B3541118F6F37E1 /* HTMLReporter */,
+				6901F6BD48214E4787F66231 /* TextReporter */,
+				D75F6727A3A74EF6BC3AE4FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4350200EF557446888F2A21D /* JSONReporter */ = {
+			isa = PBXGroup;
+			children = (
+				53049722CC55490580B6CCCD /* Source Files */,
+				59C7351471A44AFDA9D861EB /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */,
+			);
+			name = JSONReporter;
+			sourceTree = "<group>";
+		};
+		53049722CC55490580B6CCCD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75A8457051F48C4BE3CFFA4 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/JSONReporter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		55B29BD63B3541118F6F37E1 /* HTMLReporter */ = {
+			isa = PBXGroup;
+			children = (
+				CC586695771D409BBE57C63B /* Source Files */,
+				9A36F1BAB5F7422DA8513BA8 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */,
+			);
+			name = HTMLReporter;
+			sourceTree = "<group>";
+		};
+		5C09593704CC46ABA3CD944F /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BD0E4EBD2C54F41A7EC60F1 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XMLReporter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		6901F6BD48214E4787F66231 /* TextReporter */ = {
+			isa = PBXGroup;
+			children = (
+				0F987851882A488AB5BB4608 /* Source Files */,
+				FED95A89225E467AB9F15451 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */,
+			);
+			name = TextReporter;
+			sourceTree = "<group>";
+		};
+		6E2B1A56E6414E8FA31AE309 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8ED990D329BF45D6BA3D672A /* XcodeReporter */ = {
+			isa = PBXGroup;
+			children = (
+				DBC7A10A041043D29840F67E /* Source Files */,
+				B2890E1F1E6C41799B91187E /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */,
+			);
+			name = XcodeReporter;
+			sourceTree = "<group>";
+		};
+		9F6FFE2B8BAF4E919CA1F1A5 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF768BD76AEF432B991199A2 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/PMDReporter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		A337780872864C7897A5C708 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				6E2B1A56E6414E8FA31AE309 /* CMake Rules */,
+				2D5C3D4FF7AA4081908C7E5F /* /Users/langlib/Desktop/oclint/oclint-reporters/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		CC586695771D409BBE57C63B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				78BBA620189542DC982EFF9E /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/HTMLReporter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		D64C5E551E384A1BA90A5E6E /* XMLReporter */ = {
+			isa = PBXGroup;
+			children = (
+				5C09593704CC46ABA3CD944F /* Source Files */,
+				AFFA8B7C1A9046C08D68A5D9 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/CMakeLists.txt */,
+			);
+			name = XMLReporter;
+			sourceTree = "<group>";
+		};
+		D75F6727A3A74EF6BC3AE4FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655C3EF3BCB44A2DA5F3247B /* HTMLReporter */,
+				F5BC0C60DEAD4B5B83B31CF7 /* JSONReporter */,
+				A7638CE7D48E47B79EE1B6CB /* PMDReporter */,
+				CA35D40C1FB14B40B28575C8 /* TextReporter */,
+				FDC92E6E7E7A4AE0B1A1BEF6 /* XMLReporter */,
+				DD237F1987D2457EB61133A9 /* XcodeReporter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBC7A10A041043D29840F67E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF6A6F8A34454D67932748EC /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XcodeReporter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18832ADAD11D4AA5B27D5409 /* PMDReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58355510A5E4C6C962B095B /* Build configuration list for PBXNativeTarget "PMDReporter" */;
+			buildPhases = (
+				BC036B59E95345A8A5F04119 /* Sources */,
+				FC08F66FED60494C880EF6B3 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DE3BF2AC5964C0CA4F8A4EC /* PBXTargetDependency */,
+			);
+			name = PMDReporter;
+			productName = PMDReporter;
+			productReference = A7638CE7D48E47B79EE1B6CB /* PMDReporter */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		230534315D394E8584C6D377 /* TextReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3FD793FD7AF42AEB78FB77D /* Build configuration list for PBXNativeTarget "TextReporter" */;
+			buildPhases = (
+				7E98BFB501CE4448A5D57531 /* Sources */,
+				B63A5B40EE0449988237D7C1 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E89157D316D43E595A6FD73 /* PBXTargetDependency */,
+			);
+			name = TextReporter;
+			productName = TextReporter;
+			productReference = CA35D40C1FB14B40B28575C8 /* TextReporter */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		749BEF7998294591A6273120 /* JSONReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902D199B6DA4445883074F23 /* Build configuration list for PBXNativeTarget "JSONReporter" */;
+			buildPhases = (
+				5BDA9B0D92EE4919B4D3F535 /* Sources */,
+				CB974067E1CE4B138FC74A9C /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				424A3AC1443148DF8BA72CDE /* PBXTargetDependency */,
+			);
+			name = JSONReporter;
+			productName = JSONReporter;
+			productReference = F5BC0C60DEAD4B5B83B31CF7 /* JSONReporter */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		A34F44A4BFA54A558AE63451 /* HTMLReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39737AC8601845C587EF5C4E /* Build configuration list for PBXNativeTarget "HTMLReporter" */;
+			buildPhases = (
+				6193C858F17441CBA89B9025 /* Sources */,
+				12E9039F05294EE2B0E607E9 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC8A0154B43946A7AEA393CB /* PBXTargetDependency */,
+			);
+			name = HTMLReporter;
+			productName = HTMLReporter;
+			productReference = 655C3EF3BCB44A2DA5F3247B /* HTMLReporter */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		ABE4CFB464FB43E4B13EEFE1 /* XcodeReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CA0CA14FD42467E8BEA77AD /* Build configuration list for PBXNativeTarget "XcodeReporter" */;
+			buildPhases = (
+				40AB21F76B6B4B0F9A5D1636 /* Sources */,
+				985C714341914D608E4793A7 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E137FCD5DB3470AB2B5BECA /* PBXTargetDependency */,
+			);
+			name = XcodeReporter;
+			productName = XcodeReporter;
+			productReference = DD237F1987D2457EB61133A9 /* XcodeReporter */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		E14BDAA989A34D3590CF3D71 /* XMLReporter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B154D5A5A64680B73B5C4A /* Build configuration list for PBXNativeTarget "XMLReporter" */;
+			buildPhases = (
+				ED67DDAFB4674C5A9AB352AD /* Sources */,
+				4431619D78C74F27836AFD3A /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36EF19549A4B412D96F72BD4 /* PBXTargetDependency */,
+			);
+			name = XMLReporter;
+			productName = XMLReporter;
+			productReference = FDC92E6E7E7A4AE0B1A1BEF6 /* XMLReporter */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B88B04BA57445DE845CB6E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 2A8C52109BCE4A5D8A93F3E2 /* Build configuration list for PBXProject "OCLINT_REPORTERS" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AFE7680AD5434959AD1ADDCA /* Debug */,
+				6A73BDDA2DE5489BA0BEC78D /* Release */,
+				5E5B804B1B314EC8866C09C9 /* MinSizeRel */,
+				3AA12852FDF34D9BBD2CF196 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3A1093DF830A476084A5C780;
+			projectDirPath = "/Users/langlib/Desktop/oclint/oclint-reporters";
+			projectRoot = "";
+			targets = (
+				C6E6EAC2574A4E5293F54C09 /* ALL_BUILD */,
+				A34F44A4BFA54A558AE63451 /* HTMLReporter */,
+				749BEF7998294591A6273120 /* JSONReporter */,
+				18832ADAD11D4AA5B27D5409 /* PMDReporter */,
+				230534315D394E8584C6D377 /* TextReporter */,
+				E14BDAA989A34D3590CF3D71 /* XMLReporter */,
+				ABE4CFB464FB43E4B13EEFE1 /* XcodeReporter */,
+				1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */,
+				800B0AB8E0CC4918AF6EB718 /* intrinsics_gen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E9039F05294EE2B0E607E9 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeScripts/HTMLReporter_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4431619D78C74F27836AFD3A /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeScripts/XMLReporter_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		46E301A203574140914C7FE5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		5C3EBED5FB6D403CB47707EF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6A3937A2B042428D8C538363 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		985C714341914D608E4793A7 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeScripts/XcodeReporter_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B63A5B40EE0449988237D7C1 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeScripts/TextReporter_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BC1DA7D34248427AA5F76224 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CB974067E1CE4B138FC74A9C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeScripts/JSONReporter_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		DA5C2B8372BE44D19E25CAE2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FC08F66FED60494C880EF6B3 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters -f /Users/langlib/Desktop/oclint/build/oclint-reporters/reporters/CMakeScripts/PMDReporter_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40AB21F76B6B4B0F9A5D1636 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C8876827B444B6A9B436116 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XcodeReporter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BDA9B0D92EE4919B4D3F535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58648BB6FA8480684608434 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/JSONReporter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6193C858F17441CBA89B9025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88DE39B6B62C457BA4422457 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/HTMLReporter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E98BFB501CE4448A5D57531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64F9D6CEC594D0D9C65E6ED /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/TextReporter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC036B59E95345A8A5F04119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354C627080C2434EB7AE6A8D /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/PMDReporter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED67DDAFB4674C5A9AB352AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9F37B98C664CF98D2935D0 /* /Users/langlib/Desktop/oclint/oclint-reporters/reporters/XMLReporter.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DE3BF2AC5964C0CA4F8A4EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = F84FC25D762F489EA89094D5 /* PBXContainerItemProxy */;
+		};
+		11D93F47695A4B818A70C11E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABE4CFB464FB43E4B13EEFE1 /* XcodeReporter */;
+			targetProxy = 49377DA226CA4DE5B97557DA /* PBXContainerItemProxy */;
+		};
+		1541F68851F84A89A68BD187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18832ADAD11D4AA5B27D5409 /* PMDReporter */;
+			targetProxy = C4AE14DC7014471A86AAEDC1 /* PBXContainerItemProxy */;
+		};
+		1E89157D316D43E595A6FD73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = 978E083B630A410EB82A88FD /* PBXContainerItemProxy */;
+		};
+		250D9805EB624F1498100DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = 0AE011AD35F14437B69008E9 /* PBXContainerItemProxy */;
+		};
+		36EF19549A4B412D96F72BD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = 7C39673C05504C87B7604796 /* PBXContainerItemProxy */;
+		};
+		424A3AC1443148DF8BA72CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = F77318ACCE6B41A696A12E04 /* PBXContainerItemProxy */;
+		};
+		5C95ACF207AC4B43A4864EF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 230534315D394E8584C6D377 /* TextReporter */;
+			targetProxy = 180EF2CCED8D4F55ADB417ED /* PBXContainerItemProxy */;
+		};
+		779C5F2FB5244464AD121952 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = 89D787D5A01B438B98247358 /* PBXContainerItemProxy */;
+		};
+		7E137FCD5DB3470AB2B5BECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = D594DF8C0F4F4CC59D0A0D53 /* PBXContainerItemProxy */;
+		};
+		8227F92D0A3F4B878A3C43AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 749BEF7998294591A6273120 /* JSONReporter */;
+			targetProxy = FB10090AD97A4092A380D548 /* PBXContainerItemProxy */;
+		};
+		854F1C83F92A48BEB140C51A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34F44A4BFA54A558AE63451 /* HTMLReporter */;
+			targetProxy = 0CF84B332AD74D65BBC78036 /* PBXContainerItemProxy */;
+		};
+		C71065F0A7AE4242B661A1C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E14BDAA989A34D3590CF3D71 /* XMLReporter */;
+			targetProxy = DB9208109E754F60A36C1FD0 /* PBXContainerItemProxy */;
+		};
+		CC8A0154B43946A7AEA393CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B50A356D93D4D0A882D69C1 /* ZERO_CHECK */;
+			targetProxy = 1FF70298CB7C4566B9114CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F5D7FF05074CD2981F2E17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		13C25092416848C5BF162F97 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		232673BA017348B3AA4C3F40 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2BF075ACE9FB489AB7F1CFAC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/build";
+			};
+			name = MinSizeRel;
+		};
+		2EDA5A2848C746578120E902 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TextReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TextReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		322B7A6C07D040DC97D9D8AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TextReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12    -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TextReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3340C503752F4115B7F35624 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12        -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		33598353EE9245B791890826 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",JSONReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JSONReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		35AD2109FF8C4853BB2A5113 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/build";
+			};
+			name = RelWithDebInfo;
+		};
+		367AFFA3291C4D98ADA4CFD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",JSONReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12    -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JSONReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3E604C12D7ED4A03B4DA4DE3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TextReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12        -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TextReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3F086F9CCEEC49E9B9F1894F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4218990AFF6549A48FE6D869 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		491CAF11BDAB452DBD205A2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",JSONReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JSONReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4CEA6513188D4C3189AA65B9 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4CFBE31C42A94D6BBF450338 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",JSONReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12        -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = JSONReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D915F65835149A8804F676B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XcodeReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XcodeReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		51CCAEFE1A2947C4B0F2A6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		542EAC3467CE4758A5C0A849 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XcodeReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12        -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XcodeReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		55607B5BD71D469DB7127F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		59AE8D96B5A048D99B533520 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PMDReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PMDReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5C6A22F435B54FC8AE12D8C5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6B2AC95509714B9DA0B5E8A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XcodeReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12    -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XcodeReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7017F632CE2142F59BFDBE68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		77430257984E4A9BA1E70537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12    -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7F82E35205C7452B9A05B9E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HTMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HTMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		83748B0BF1AB41AD858E8B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/build";
+			};
+			name = Debug;
+		};
+		83E135E7C5844F7E8E28E93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		894E3FDB75A54AE6BC15BCFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HTMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12    -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HTMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8A55D24CBBDB43A38F23BC35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",TextReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = TextReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A241A73CDDE84A15ADD5AAE3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		ABD90BF1B4C84802B51D043C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HTMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12        -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HTMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		AC365227C4D64E438ECAEB6C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/RelWithDebInfo";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PMDReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12        -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PMDReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B2010E2960F845FCB366DCE2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XcodeReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XcodeReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B4594F79495C4B20AD2F4005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Debug";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PMDReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12    -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PMDReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C493F451D4D949FB8A6E39ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",XMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = XMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D35982F1AB0543568C004C78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D5822B5DEA5D496B9BE3B9AF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/MinSizeRel";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",HTMLReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HTMLReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DC3B8E6C8942435183452D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters.dl/Release";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",PMDReporter_EXPORTS);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-core/include");
+				INSTALL_PATH = "@rpath";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_SEARCH_PATHS = " /Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /Users/langlib/Desktop/oclint/build/oclint-core/lib";
+				LIBRARY_STYLE = DYNAMIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG -fPIC   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LDFLAGS = "-undefined dynamic_lookup -dynamiclib -Wl,-headerpad_max_install_names  -lOCLintCore";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = PMDReporter;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/reporters";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F27F9A544EE54875B6FE30EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-reporters/build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CA0CA14FD42467E8BEA77AD /* Build configuration list for PBXNativeTarget "XcodeReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AC95509714B9DA0B5E8A3 /* Debug */,
+				4D915F65835149A8804F676B /* Release */,
+				B2010E2960F845FCB366DCE2 /* MinSizeRel */,
+				542EAC3467CE4758A5C0A849 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2A8C52109BCE4A5D8A93F3E2 /* Build configuration list for PBXProject "OCLINT_REPORTERS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83748B0BF1AB41AD858E8B4B /* Debug */,
+				F27F9A544EE54875B6FE30EF /* Release */,
+				2BF075ACE9FB489AB7F1CFAC /* MinSizeRel */,
+				35AD2109FF8C4853BB2A5113 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32B154D5A5A64680B73B5C4A /* Build configuration list for PBXNativeTarget "XMLReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77430257984E4A9BA1E70537 /* Debug */,
+				C493F451D4D949FB8A6E39ED /* Release */,
+				4218990AFF6549A48FE6D869 /* MinSizeRel */,
+				3340C503752F4115B7F35624 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		39737AC8601845C587EF5C4E /* Build configuration list for PBXNativeTarget "HTMLReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				894E3FDB75A54AE6BC15BCFF /* Debug */,
+				7F82E35205C7452B9A05B9E1 /* Release */,
+				D5822B5DEA5D496B9BE3B9AF /* MinSizeRel */,
+				ABD90BF1B4C84802B51D043C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5BF7405DF1234EA6B6090532 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83E135E7C5844F7E8E28E93B /* Debug */,
+				D35982F1AB0543568C004C78 /* Release */,
+				232673BA017348B3AA4C3F40 /* MinSizeRel */,
+				A241A73CDDE84A15ADD5AAE3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7FE9696D1E4B4558BBE8DA90 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7017F632CE2142F59BFDBE68 /* Debug */,
+				55607B5BD71D469DB7127F8C /* Release */,
+				3F086F9CCEEC49E9B9F1894F /* MinSizeRel */,
+				5C6A22F435B54FC8AE12D8C5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		902D199B6DA4445883074F23 /* Build configuration list for PBXNativeTarget "JSONReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				367AFFA3291C4D98ADA4CFD8 /* Debug */,
+				491CAF11BDAB452DBD205A2A /* Release */,
+				33598353EE9245B791890826 /* MinSizeRel */,
+				4CFBE31C42A94D6BBF450338 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7A5F133292F4762BBBD327E /* Build configuration list for PBXAggregateTarget "intrinsics_gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F5D7FF05074CD2981F2E17 /* Debug */,
+				51CCAEFE1A2947C4B0F2A6CC /* Release */,
+				13C25092416848C5BF162F97 /* MinSizeRel */,
+				4CEA6513188D4C3189AA65B9 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B58355510A5E4C6C962B095B /* Build configuration list for PBXNativeTarget "PMDReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4594F79495C4B20AD2F4005 /* Debug */,
+				DC3B8E6C8942435183452D79 /* Release */,
+				59AE8D96B5A048D99B533520 /* MinSizeRel */,
+				AC365227C4D64E438ECAEB6C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C3FD793FD7AF42AEB78FB77D /* Build configuration list for PBXNativeTarget "TextReporter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322B7A6C07D040DC97D9D8AD /* Debug */,
+				8A55D24CBBDB43A38F23BC35 /* Release */,
+				2EDA5A2848C746578120E902 /* MinSizeRel */,
+				3E604C12D7ED4A03B4DA4DE3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B88B04BA57445DE845CB6E8 /* Project object */;
+}

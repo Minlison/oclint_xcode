@@ -1,0 +1,4 @@
+/Users/langlib/Desktop/oclint/build/countly/CMakeFiles/test-countly.dir
+/Users/langlib/Desktop/oclint/build/countly/CMakeFiles/ALL_BUILD.dir
+/Users/langlib/Desktop/oclint/build/countly/CMakeFiles/ZERO_CHECK.dir
+/Users/langlib/Desktop/oclint/build/countly/lib/CMakeFiles/Countly.dir
