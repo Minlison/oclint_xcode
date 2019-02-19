@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="oclint-0.13.1"><file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/module.modulemap">
+<violation begincolumn="11" endcolumn="0" beginline="118" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+header &apos;stdarg.h&apos; not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h">
+<violation begincolumn="10" endcolumn="0" beginline="17" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+&apos;stdarg.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="34" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="219" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+unknown type name &apos;__BEGIN_DECLS&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="237" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="237" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="237" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="237" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="238" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected function body after function declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="259" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="259" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="259" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="259" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="260" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected function body after function declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="268" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+unknown type name &apos;__END_DECLS&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="7" endcolumn="0" beginline="270" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+expected identifier or &apos;(&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h">
+<violation begincolumn="10" endcolumn="0" beginline="6" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc.h">
+<violation begincolumn="10" endcolumn="0" beginline="34" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/SecBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="28" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreServices.framework/Headers/UTCoreTypes.h">
+<violation begincolumn="10" endcolumn="0" beginline="19" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h">
+<violation begincolumn="9" endcolumn="0" beginline="8" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="8" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CABase.h">
+<violation begincolumn="10" endcolumn="0" beginline="11" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h">
+<violation begincolumn="10" endcolumn="0" beginline="8" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLTypes.h">
+<violation begincolumn="9" endcolumn="0" beginline="8" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="44" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImageDefines.h">
+<violation begincolumn="10" endcolumn="0" beginline="12" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="95" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIOBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="11" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFontTraits.h">
+<violation begincolumn="10" endcolumn="0" beginline="14" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderDomain.h">
+<violation begincolumn="9" endcolumn="0" beginline="8" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Users/langlib/Desktop/TestSonr/LLBModel/Pods/Target Support Files/LLBModel/LLBModel-prefix.pch">
+<violation begincolumn="9" endcolumn="0" beginline="2" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;UIKit&apos;
+</violation>
+</file>
+
+<file name="/Users/langlib/Desktop/TestSonr/LLBModel/Pods/Target Support Files/YYModel/YYModel-umbrella.h">
+<violation begincolumn="9" endcolumn="0" beginline="2" endline="0" priority="1" rule="compiler error" ruleset="clang" >
+could not build module &apos;UIKit&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/module.modulemap">
+<violation begincolumn="11" endcolumn="0" beginline="118" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+header &apos;stdarg.h&apos; not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h">
+<violation begincolumn="10" endcolumn="0" beginline="16" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h">
+<violation begincolumn="10" endcolumn="0" beginline="17" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+&apos;stdarg.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="25" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="26" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="27" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="28" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="31" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="32" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="33" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/dispatch/dispatch.h">
+<violation begincolumn="10" endcolumn="0" beginline="34" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="10" endcolumn="0" beginline="25" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="10" endcolumn="0" beginline="26" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="10" endcolumn="0" beginline="27" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="10" endcolumn="0" beginline="28" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="219" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+unknown type name &apos;__BEGIN_DECLS&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="237" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="237" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="20" endcolumn="0" beginline="237" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+to match this &apos;(&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="237" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="237" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="32" endcolumn="0" beginline="237" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+to match this &apos;(&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="238" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected function body after function declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="259" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="21" endcolumn="0" beginline="259" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="20" endcolumn="0" beginline="259" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+to match this &apos;(&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="259" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected parameter declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="33" endcolumn="0" beginline="259" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected &apos;)&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="32" endcolumn="0" beginline="259" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+to match this &apos;(&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="260" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected function body after function declarator
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="1" endcolumn="0" beginline="268" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+unknown type name &apos;__END_DECLS&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/os/object.h">
+<violation begincolumn="7" endcolumn="0" beginline="270" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+expected identifier or &apos;(&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h">
+<violation begincolumn="10" endcolumn="0" beginline="6" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc.h">
+<violation begincolumn="10" endcolumn="0" beginline="31" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc.h">
+<violation begincolumn="10" endcolumn="0" beginline="32" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc-api.h">
+<violation begincolumn="10" endcolumn="0" beginline="28" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc-api.h">
+<violation begincolumn="10" endcolumn="0" beginline="29" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc-api.h">
+<violation begincolumn="10" endcolumn="0" beginline="30" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc-api.h">
+<violation begincolumn="10" endcolumn="0" beginline="31" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/objc.h">
+<violation begincolumn="10" endcolumn="0" beginline="34" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/SecBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="27" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/SecBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="28" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreServices.framework/Headers/UTCoreTypes.h">
+<violation begincolumn="10" endcolumn="0" beginline="19" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h">
+<violation begincolumn="9" endcolumn="0" beginline="8" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="8" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CABase.h">
+<violation begincolumn="10" endcolumn="0" beginline="11" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h">
+<violation begincolumn="10" endcolumn="0" beginline="8" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLDefines.h">
+<violation begincolumn="9" endcolumn="0" beginline="8" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLDefines.h">
+<violation begincolumn="9" endcolumn="0" beginline="9" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/MTLTypes.h">
+<violation begincolumn="9" endcolumn="0" beginline="8" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="12" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="14" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="15" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="43" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/IOSurface.framework/Headers/IOSurfaceBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="44" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImageDefines.h">
+<violation begincolumn="10" endcolumn="0" beginline="10" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImageDefines.h">
+<violation begincolumn="10" endcolumn="0" beginline="12" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h">
+<violation begincolumn="10" endcolumn="0" beginline="16" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h">
+<violation begincolumn="10" endcolumn="0" beginline="17" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CoreVideo.h">
+<violation begincolumn="10" endcolumn="0" beginline="18" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVReturn.h">
+<violation begincolumn="10" endcolumn="0" beginline="19" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="19" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="20" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="21" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreVideo.framework/Headers/CVBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="95" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/ImageIO.framework/Headers/ImageIOBase.h">
+<violation begincolumn="10" endcolumn="0" beginline="11" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+&apos;stdbool.h&apos; file not found
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTDefines.h">
+<violation begincolumn="10" endcolumn="0" beginline="12" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+submodule of top-level module &apos;Darwin&apos; implicitly imported here
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CTFontTraits.h">
+<violation begincolumn="10" endcolumn="0" beginline="14" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;CoreFoundation&apos;
+</violation>
+</file>
+
+<file name="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/FileProvider.framework/Headers/NSFileProviderDomain.h">
+<violation begincolumn="9" endcolumn="0" beginline="8" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;Foundation&apos;
+</violation>
+</file>
+
+<file name="/Users/langlib/Desktop/TestSonr/LLBModel/Pods/Target Support Files/LLBModel/LLBModel-prefix.pch">
+<violation begincolumn="9" endcolumn="0" beginline="2" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;UIKit&apos;
+</violation>
+</file>
+
+<file name="/Users/langlib/Desktop/TestSonr/LLBModel/Pods/Target Support Files/YYModel/YYModel-umbrella.h">
+<violation begincolumn="9" endcolumn="0" beginline="2" endline="0" priority="2" rule="clang static analyzer" ruleset="clang" >
+could not build module &apos;UIKit&apos;
+</violation>
+</file>
+
+</pmd>

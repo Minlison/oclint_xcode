@@ -1,0 +1,3845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		028B4C41598149938B77638A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7E5F731F9EC3494899C36616 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				65DB5498FC0C462DA07BEB24 /* CMake Rules */,
+			);
+			dependencies = (
+				DEE309A4B6894E59B25D897C /* PBXTargetDependency */,
+				548B08CA220247B38BDF06D8 /* PBXTargetDependency */,
+				616CE1EEAEF040C0B657DC31 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		0BA80F99EFF3451B9BF0E0CC /* intrinsics_gen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B045701B9C974D318A9D659F /* Build configuration list for PBXAggregateTarget "intrinsics_gen" */;
+			buildPhases = (
+			);
+			dependencies = (
+				18656434D5F64CB388732D0B /* PBXTargetDependency */,
+			);
+			name = intrinsics_gen;
+			productName = intrinsics_gen;
+		};
+		FFCF95966C1B42949BEEA865 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 08A07345CE864DFFA72D5483 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F0F1574BBC55418B9A74FDFB /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0FD3F6AEFB1748109183F69B /* Analytics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8AABF9DBDDD494AB66130CA /* Analytics.cpp */; };
+		14620C2FC4274FE8968FF807 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DD634C19C07640E492212B4B /* main.cpp */; };
+		1525116FA50B487B8FF21B18 /* RulesetBasedAnalyzer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDAF9211BBC14877B484DD4B /* RulesetBasedAnalyzer.cpp */; };
+		2319F53FDE6146D88214BB7E /* ConfigFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B2CFB9833DBA427CAD9E8E0D /* ConfigFile.cpp */; };
+		30E30220314E401ABF6BAC3E /* RulesetFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E39C01B6F9254C9680FA310E /* RulesetFilter.cpp */; };
+		5278A2104D99415E9A0BFD2C /* Options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 28D5AA940E5440AB957C3C52 /* Options.cpp */; };
+		56D160D9229E46BB98BB6BF0 /* GenericException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1F9039EED24235A0FD8E81 /* GenericException.cpp */; };
+		7692F4DFC42447F09EE8BFCB /* DiagnosticDispatcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 87D96BA341064B65B4E1AC51 /* DiagnosticDispatcher.cpp */; };
+		7BDC4C1E04184D37BC10AA08 /* reporters_dlfcn_port.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EB017686F2D4CC08B89FC25 /* reporters_dlfcn_port.cpp */; };
+		850ACC689BC041A28E116C8D /* rules_dlfcn_port.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C8E6E131C32405085BBBC3A /* rules_dlfcn_port.cpp */; };
+		EA09FDD100204E2FA13BADC4 /* Driver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CFC9711ECE4946908444712F /* Driver.cpp */; };
+		F0F56E4AAB044A0DA3A9BE92 /* CompilerInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 71FA838F76154D96A393FF7D /* CompilerInstance.cpp */; };
+		FB89F013FCE94D2BB9FC5614 /* Logger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A31434CB2A2E4AC4A00B2DAA /* Logger.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1505F7CE2A1240329A212381 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E31852858FD434EBEB1F930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455059C133FA455A858D67AE;
+			remoteInfo = OCLintDriver;
+		};
+		20048715AD424A6083151EFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E31852858FD434EBEB1F930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCF95966C1B42949BEEA865;
+			remoteInfo = ZERO_CHECK;
+		};
+		217A0A2C8E9747B09FA056EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E31852858FD434EBEB1F930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCF95966C1B42949BEEA865;
+			remoteInfo = ZERO_CHECK;
+		};
+		4527228FC1854EDAB10BFCBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E31852858FD434EBEB1F930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5D0084B59F848B79D1A9C65;
+			remoteInfo = "oclint-0.13.1";
+		};
+		4F54065C80E94D4EB2290AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E31852858FD434EBEB1F930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCF95966C1B42949BEEA865;
+			remoteInfo = ZERO_CHECK;
+		};
+		7006581907754B30BF42E7B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E31852858FD434EBEB1F930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 455059C133FA455A858D67AE;
+			remoteInfo = OCLintDriver;
+		};
+		73F88F6799D643B0A85EC70C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E31852858FD434EBEB1F930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCF95966C1B42949BEEA865;
+			remoteInfo = ZERO_CHECK;
+		};
+		DC8BEF08221A7A5F00F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF00221A7A5F00F5F472 /* OCLINT_CORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 948F549AD8C34F5D87D9E68F;
+			remoteInfo = OCLintCore;
+		};
+		DC8BEF0A221A7A5F00F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF00221A7A5F00F5F472 /* OCLINT_CORE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE8FE89BB481436C9B4E6915;
+			remoteInfo = OCLintRuleSet;
+		};
+		DC8BEF13221A7A6300F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF0C221A7A6300F5F472 /* OCLINT_METRICS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4D255AD07B5E4EDABDFA5075;
+			remoteInfo = OCLintMetric;
+		};
+		DC8BEF21221A7A6600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 655C3EF3BCB44A2DA5F3247B;
+			remoteInfo = HTMLReporter;
+		};
+		DC8BEF23221A7A6600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5BC0C60DEAD4B5B83B31CF7;
+			remoteInfo = JSONReporter;
+		};
+		DC8BEF25221A7A6600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7638CE7D48E47B79EE1B6CB;
+			remoteInfo = PMDReporter;
+		};
+		DC8BEF27221A7A6600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA35D40C1FB14B40B28575C8;
+			remoteInfo = TextReporter;
+		};
+		DC8BEF29221A7A6600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FDC92E6E7E7A4AE0B1A1BEF6;
+			remoteInfo = XMLReporter;
+		};
+		DC8BEF2B221A7A6600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD237F1987D2457EB61133A9;
+			remoteInfo = XcodeReporter;
+		};
+		DC8BEF7B221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96F85B7A38984B259D508879;
+			remoteInfo = AvoidBranchingStatementAsLastInLoopRule;
+		};
+		DC8BEF7D221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 455E985406B54D8DB9B8A3DE;
+			remoteInfo = AvoidDefaultArgumentsOnVirtualMethodsRule;
+		};
+		DC8BEF7F221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F64BD07FE6274FAE9F1CA839;
+			remoteInfo = AvoidPrivateStaticMembersRule;
+		};
+		DC8BEF81221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0DB2B308C70542B7AB604E01;
+			remoteInfo = BaseClassDestructorShouldBeVirtualOrProtectedRule;
+		};
+		DC8BEF83221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F3A8F1D624484159A716AFFE;
+			remoteInfo = BitwiseOperatorInConditionalRule;
+		};
+		DC8BEF85221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC6CDEF07E154D55A96D10AA;
+			remoteInfo = BrokenNullCheckRule;
+		};
+		DC8BEF87221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 011F078AF2C04F07BA437007;
+			remoteInfo = BrokenOddnessCheckRule;
+		};
+		DC8BEF89221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 031FAABCE65E40D98DA00454;
+			remoteInfo = CollapsibleIfStatementsRule;
+		};
+		DC8BEF8B221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DBD02358922E43FAB684A25E;
+			remoteInfo = ConstantConditionalOperatorRule;
+		};
+		DC8BEF8D221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57E941FA03B74C9CAD32BB78;
+			remoteInfo = ConstantIfExpressionRule;
+		};
+		DC8BEF8F221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED61BF9C542F4E3EA480B3A5;
+			remoteInfo = CoveredSwitchStatementsDontNeedDefaultRule;
+		};
+		DC8BEF91221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F682CB11679A4F8BBE39946B;
+			remoteInfo = CyclomaticComplexityRule;
+		};
+		DC8BEF93221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D33DEF31D79648629D2EE503;
+			remoteInfo = DeadCodeRule;
+		};
+		DC8BEF95221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DD4A65791FAF4D8494DA8E91;
+			remoteInfo = DefaultLabelNotLastInSwitchStatementRule;
+		};
+		DC8BEF97221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C44F92E943564295A972B77A;
+			remoteInfo = DestructorOfVirtualClassRule;
+		};
+		DC8BEF99221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 606D29C373054A30A2377F46;
+			remoteInfo = DoubleNegativeRule;
+		};
+		DC8BEF9B221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A7068894D14F4CED9BC495AB;
+			remoteInfo = EmptyCatchStatementRule;
+		};
+		DC8BEF9D221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4E76F0D4283F451481971CEE;
+			remoteInfo = EmptyDoWhileStatementRule;
+		};
+		DC8BEF9F221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 63A629D8BB4C485EA3C32D08;
+			remoteInfo = EmptyElseBlockRule;
+		};
+		DC8BEFA1221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3064090A71C84B5F947BEDCE;
+			remoteInfo = EmptyFinallyStatementRule;
+		};
+		DC8BEFA3221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D09DF14310054E4C97F71953;
+			remoteInfo = EmptyForStatementRule;
+		};
+		DC8BEFA5221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 345424245F6248968093815B;
+			remoteInfo = EmptyIfStatementRule;
+		};
+		DC8BEFA7221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6A6894A8D4574CB587C6E5E2;
+			remoteInfo = EmptySwitchStatementRule;
+		};
+		DC8BEFA9221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 948CACFFB15045A9A50ACB24;
+			remoteInfo = EmptyTryStatementRule;
+		};
+		DC8BEFAB221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA88959A53FE491AB15D925A;
+			remoteInfo = EmptyWhileStatementRule;
+		};
+		DC8BEFAD221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F989EC9EFB61425C8426B7AD;
+			remoteInfo = ForLoopShouldBeWhileLoopRule;
+		};
+		DC8BEFAF221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5B77CAD2B023426684E45F16;
+			remoteInfo = GotoStatementRule;
+		};
+		DC8BEFB1221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 31B82701D21544888C702CD7;
+			remoteInfo = InvertedLogicRule;
+		};
+		DC8BEFB3221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 661A23A4FD7B45B995A13C65;
+			remoteInfo = JumbledIncrementerRule;
+		};
+		DC8BEFB5221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F0E7824D4CE84E50B3BC19EA;
+			remoteInfo = LongClassRule;
+		};
+		DC8BEFB7221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C316FD7E6764FEB8F173694;
+			remoteInfo = LongLineRule;
+		};
+		DC8BEFB9221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FA3990CECC074BD3A55DB682;
+			remoteInfo = LongMethodRule;
+		};
+		DC8BEFBB221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 642028D1950F4888B8DDBB77;
+			remoteInfo = LongVariableNameRule;
+		};
+		DC8BEFBD221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0EFE2B7E2FD84B22A2899BDF;
+			remoteInfo = MisplacedNullCheckRule;
+		};
+		DC8BEFBF221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 04FB1A6851C94D9C844AE1F0;
+			remoteInfo = MissingBreakInSwitchStatementRule;
+		};
+		DC8BEFC1221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E2752BEE7320450F8D532577;
+			remoteInfo = MultipleUnaryOperatorRule;
+		};
+		DC8BEFC3221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5A829FB41CC54A6288961068;
+			remoteInfo = NPathComplexityRule;
+		};
+		DC8BEFC5221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9CACC05B5C464E7AA3C852F5;
+			remoteInfo = NcssMethodCountRule;
+		};
+		DC8BEFC7221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5E6C650B3E2843F5BBA092E5;
+			remoteInfo = NestedBlockDepthRule;
+		};
+		DC8BEFC9221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 998548389FBE42C1AF0A1351;
+			remoteInfo = NonCaseLabelInSwitchStatementRule;
+		};
+		DC8BEFCB221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83678903E44F4E96A85C8351;
+			remoteInfo = OCLintAbstractRule;
+		};
+		DC8BEFCD221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BFF1C615CBA743078708E703;
+			remoteInfo = OCLintHelper;
+		};
+		DC8BEFCF221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 827E9EF3201249DD90196DFA;
+			remoteInfo = OCLintUtil;
+		};
+		DC8BEFD1221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 98477DA816534FA2AE79D1C4;
+			remoteInfo = ObjCAssignIvarOutsideAccessorsRule;
+		};
+		DC8BEFD3221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 95E15DA53DCC4A9087A8AFF1;
+			remoteInfo = ObjCBoxedExpressionsRule;
+		};
+		DC8BEFD5221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 32F1474593FB43C3834B5FA0;
+			remoteInfo = ObjCContainerLiteralsRule;
+		};
+		DC8BEFD7221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0568953CBEBF4B638CEDF197;
+			remoteInfo = ObjCNSNumberLiteralsRule;
+		};
+		DC8BEFD9221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 31FA31EFC4CC41D9ABA15658;
+			remoteInfo = ObjCObjectSubscriptingRule;
+		};
+		DC8BEFDB221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F70FA447719B4EE9ACFB7ED9;
+			remoteInfo = ObjCVerifyIsEqualHashRule;
+		};
+		DC8BEFDD221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7848752141484F83898268F3;
+			remoteInfo = ObjCVerifyMustCallSuperRule;
+		};
+		DC8BEFDF221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BD6C4A9EB3B7413B84136941;
+			remoteInfo = ObjCVerifyProhibitedCallRule;
+		};
+		DC8BEFE1221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AA4FADF13C58447993741B10;
+			remoteInfo = ObjCVerifyProtectedMethodRule;
+		};
+		DC8BEFE3221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 45EBE5C5A2324513B8D9742F;
+			remoteInfo = ObjCVerifySubclassMustImplementRule;
+		};
+		DC8BEFE5221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FC90BFF8DD994746AACBEC21;
+			remoteInfo = ParameterReassignmentRule;
+		};
+		DC8BEFE7221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AD60595B2A0C471BBE4B9D96;
+			remoteInfo = PreferEarlyExitRule;
+		};
+		DC8BEFE9221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3048CF3166A4B3591C26672;
+			remoteInfo = RedundantConditionalOperatorRule;
+		};
+		DC8BEFEB221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D3ED8B97DE5E4A27BAC177DD;
+			remoteInfo = RedundantIfStatementRule;
+		};
+		DC8BEFED221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 44FF41BBF6E34123875172E0;
+			remoteInfo = RedundantLocalVariableRule;
+		};
+		DC8BEFEF221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC889F3C86EC484FB56DB03B;
+			remoteInfo = RedundantNilCheckRule;
+		};
+		DC8BEFF1221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C58CEA2E39642CDBB7E8312;
+			remoteInfo = ReturnFromFinallyBlockRule;
+		};
+		DC8BEFF3221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83524A3CCE804B7CB0A275BB;
+			remoteInfo = ShortVariableNameRule;
+		};
+		DC8BEFF5221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 067191A5B12A4582812F555E;
+			remoteInfo = SwitchStatementsShouldHaveDefaultRule;
+		};
+		DC8BEFF7221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E77E8BC18F014B3A945202F2;
+			remoteInfo = ThrowExceptionFromFinallyBlockRule;
+		};
+		DC8BEFF9221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4431007ED03142A98D12505B;
+			remoteInfo = TooFewBranchesInSwitchStatementRule;
+		};
+		DC8BEFFB221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 07A891FF6EE547AB8ED341BC;
+			remoteInfo = TooManyFieldsRule;
+		};
+		DC8BEFFD221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1105F5B51D9742AB914E8716;
+			remoteInfo = TooManyMethodsRule;
+		};
+		DC8BEFFF221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A302F4CE76AE4185BEA7A745;
+			remoteInfo = TooManyParametersRule;
+		};
+		DC8BF001221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 0273E49E9B974709AFEF4C77;
+			remoteInfo = UnnecessaryElseStatementRule;
+		};
+		DC8BF003221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C4813AC700B34933A7145BE1;
+			remoteInfo = UnnecessaryNullCheckForCXXDeallocRule;
+		};
+		DC8BF005221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 151C082FBFE240248E2613F6;
+			remoteInfo = UnusedLocalVariableRule;
+		};
+		DC8BF007221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 94F2D0FA17EA4606BDA5032C;
+			remoteInfo = UnusedMethodParameterRule;
+		};
+		DC8BF009221A7A6800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 439D22EA1EDC4A529DB3F366;
+			remoteInfo = UselessParenthesesRule;
+		};
+		DC8BF00B221A7A7600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF00221A7A5F00F5F472 /* OCLINT_CORE.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F258ABD682544408A1E5E94;
+			remoteInfo = OCLintCore;
+		};
+		DC8BF00D221A7A7600F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF00221A7A5F00F5F472 /* OCLINT_CORE.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BC126B85C463443FAE011427;
+			remoteInfo = OCLintRuleSet;
+		};
+		DC8BF00F221A7A7B00F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF0C221A7A6300F5F472 /* OCLINT_METRICS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7CD53E9D3640A9AFE438FF;
+			remoteInfo = OCLintMetric;
+		};
+		DC8BF011221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FABBD2C463A14E259C471668;
+			remoteInfo = AvoidBranchingStatementAsLastInLoopRule;
+		};
+		DC8BF013221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 65595889FEE44A6D836A3136;
+			remoteInfo = AvoidDefaultArgumentsOnVirtualMethodsRule;
+		};
+		DC8BF015221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFE0BD51BA742DF8EB862B5;
+			remoteInfo = AvoidPrivateStaticMembersRule;
+		};
+		DC8BF017221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 195B34003A104781A1C7690B;
+			remoteInfo = BaseClassDestructorShouldBeVirtualOrProtectedRule;
+		};
+		DC8BF019221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F204D3111CE4A7EA34DD0C6;
+			remoteInfo = BitwiseOperatorInConditionalRule;
+		};
+		DC8BF01B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D9AA3CAFEE2495A8E988F02;
+			remoteInfo = BrokenNullCheckRule;
+		};
+		DC8BF01D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E41E6B1954C462D849A26AB;
+			remoteInfo = BrokenOddnessCheckRule;
+		};
+		DC8BF01F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 516A1BD6D2624BBB84E4B1A6;
+			remoteInfo = CollapsibleIfStatementsRule;
+		};
+		DC8BF021221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 10CDB91C79E849E6B55F9987;
+			remoteInfo = ConstantConditionalOperatorRule;
+		};
+		DC8BF023221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 250624E300E942D791338A58;
+			remoteInfo = ConstantIfExpressionRule;
+		};
+		DC8BF025221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AAE6CED3B934D868B302DE0;
+			remoteInfo = CoveredSwitchStatementsDontNeedDefaultRule;
+		};
+		DC8BF027221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F62966F426A4652914C8DD3;
+			remoteInfo = CyclomaticComplexityRule;
+		};
+		DC8BF029221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FB015A5DA0B449C9066BF19;
+			remoteInfo = DeadCodeRule;
+		};
+		DC8BF02B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2302ECE1493C4CC18C0DAD16;
+			remoteInfo = DefaultLabelNotLastInSwitchStatementRule;
+		};
+		DC8BF02D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D8B1C9063A045D49AAF26FB;
+			remoteInfo = DestructorOfVirtualClassRule;
+		};
+		DC8BF02F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A3848A27991C43ABB178F6D1;
+			remoteInfo = DoubleNegativeRule;
+		};
+		DC8BF031221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AA970702C9A45A386DD4298;
+			remoteInfo = EmptyCatchStatementRule;
+		};
+		DC8BF033221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E35A7260A6AE4C6E91359F49;
+			remoteInfo = EmptyDoWhileStatementRule;
+		};
+		DC8BF035221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 840D91F25C9A4B2796187BB3;
+			remoteInfo = EmptyElseBlockRule;
+		};
+		DC8BF037221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 19DC84FADFEC4190A611F0C0;
+			remoteInfo = EmptyFinallyStatementRule;
+		};
+		DC8BF039221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CEF73DFE6284356964ECE21;
+			remoteInfo = EmptyForStatementRule;
+		};
+		DC8BF03B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7064D61532D143C09313416A;
+			remoteInfo = EmptyIfStatementRule;
+		};
+		DC8BF03D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4942D594C74441E89C30B6F9;
+			remoteInfo = EmptySwitchStatementRule;
+		};
+		DC8BF03F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9F7C28CEE849E0A127AA09;
+			remoteInfo = EmptyTryStatementRule;
+		};
+		DC8BF041221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D999B6FC5544EBB3651D84;
+			remoteInfo = EmptyWhileStatementRule;
+		};
+		DC8BF043221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 61F7119B94E945DCBD83AA33;
+			remoteInfo = ForLoopShouldBeWhileLoopRule;
+		};
+		DC8BF045221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C267663C19FD43F695903B5C;
+			remoteInfo = GotoStatementRule;
+		};
+		DC8BF047221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BCCC42DBF71D421ABCE01879;
+			remoteInfo = InvertedLogicRule;
+		};
+		DC8BF049221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CAC097013D64E41B3CCD087;
+			remoteInfo = JumbledIncrementerRule;
+		};
+		DC8BF04B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 153565614F354CA79B179EBB;
+			remoteInfo = LongClassRule;
+		};
+		DC8BF04D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C4978D9D7BF64895AAC16777;
+			remoteInfo = LongLineRule;
+		};
+		DC8BF04F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B7857F99E6DE46F79605A140;
+			remoteInfo = LongMethodRule;
+		};
+		DC8BF051221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F44448DCA62846618BDCB4A4;
+			remoteInfo = LongVariableNameRule;
+		};
+		DC8BF053221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEDF5901BC84AB8873469F0;
+			remoteInfo = MisplacedNullCheckRule;
+		};
+		DC8BF055221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FB8F0AF4490415C9EA9DFA7;
+			remoteInfo = MissingBreakInSwitchStatementRule;
+		};
+		DC8BF057221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 56499119826642D386C49AC3;
+			remoteInfo = MultipleUnaryOperatorRule;
+		};
+		DC8BF059221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BA1A4C4890D4DEB8389FA33;
+			remoteInfo = NPathComplexityRule;
+		};
+		DC8BF05B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 163456E3BD5446CC8E4E47A9;
+			remoteInfo = NcssMethodCountRule;
+		};
+		DC8BF05D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C1484921626A4697BE98221A;
+			remoteInfo = NestedBlockDepthRule;
+		};
+		DC8BF05F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 62708E5B3F384E4086A2E1A7;
+			remoteInfo = NonCaseLabelInSwitchStatementRule;
+		};
+		DC8BF061221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2861EFAA63224F968FBE9A8C;
+			remoteInfo = OCLintAbstractRule;
+		};
+		DC8BF063221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 71D2F88761C04558830074F3;
+			remoteInfo = OCLintHelper;
+		};
+		DC8BF065221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CEE3BC4D61FA4C25BF348D1C;
+			remoteInfo = OCLintUtil;
+		};
+		DC8BF067221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1ACC1B9C043E4B29A3640C0D;
+			remoteInfo = ObjCAssignIvarOutsideAccessorsRule;
+		};
+		DC8BF069221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 58DE140D95864A68B14E39E0;
+			remoteInfo = ObjCBoxedExpressionsRule;
+		};
+		DC8BF06B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A62C929653F414696CC3322;
+			remoteInfo = ObjCContainerLiteralsRule;
+		};
+		DC8BF06D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 675DC967FF4F41F9B71BA798;
+			remoteInfo = ObjCNSNumberLiteralsRule;
+		};
+		DC8BF06F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FA36CD186B6A47FD9BE86016;
+			remoteInfo = ObjCObjectSubscriptingRule;
+		};
+		DC8BF071221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 51900442309F43DD87513A5D;
+			remoteInfo = ObjCVerifyIsEqualHashRule;
+		};
+		DC8BF073221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 34F85B81B92F4105A3132C59;
+			remoteInfo = ObjCVerifyMustCallSuperRule;
+		};
+		DC8BF075221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 161FD00612424C558102B5D6;
+			remoteInfo = ObjCVerifyProhibitedCallRule;
+		};
+		DC8BF077221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DFAD39DF79424FB8A7CDDC8A;
+			remoteInfo = ObjCVerifyProtectedMethodRule;
+		};
+		DC8BF079221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 5257027BF8B7411EAB71C0A0;
+			remoteInfo = ObjCVerifySubclassMustImplementRule;
+		};
+		DC8BF07B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B65763A1003A4936BD730469;
+			remoteInfo = ParameterReassignmentRule;
+		};
+		DC8BF07D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA9A1E9DB76472B8176F507;
+			remoteInfo = PreferEarlyExitRule;
+		};
+		DC8BF07F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4A29B5490743B8B9258B11;
+			remoteInfo = RedundantConditionalOperatorRule;
+		};
+		DC8BF081221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0E4B1A04344725BA92E633;
+			remoteInfo = RedundantIfStatementRule;
+		};
+		DC8BF083221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 72FFD26673004000B1883FD4;
+			remoteInfo = RedundantLocalVariableRule;
+		};
+		DC8BF085221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 60F7D89F640C4341BC84A6EC;
+			remoteInfo = RedundantNilCheckRule;
+		};
+		DC8BF087221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4002A1BC0A224FC1BD3A3EB6;
+			remoteInfo = ReturnFromFinallyBlockRule;
+		};
+		DC8BF089221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C8E447D35D4147BF962B13FD;
+			remoteInfo = ShortVariableNameRule;
+		};
+		DC8BF08B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EDAC078C4E4414B01FAE80;
+			remoteInfo = SwitchStatementsShouldHaveDefaultRule;
+		};
+		DC8BF08D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 02CAC6EFB4F64678B72C5E07;
+			remoteInfo = ThrowExceptionFromFinallyBlockRule;
+		};
+		DC8BF08F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DB7EFDBB17941D3B11BF3E3;
+			remoteInfo = TooFewBranchesInSwitchStatementRule;
+		};
+		DC8BF091221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 988280324C234AD4A5F641D6;
+			remoteInfo = TooManyFieldsRule;
+		};
+		DC8BF093221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 51B2839D1839447A9B063624;
+			remoteInfo = TooManyMethodsRule;
+		};
+		DC8BF095221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C1EECDB12414B668C28C68D;
+			remoteInfo = TooManyParametersRule;
+		};
+		DC8BF097221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F60D882A328D47E9A7BE11DC;
+			remoteInfo = UnnecessaryElseStatementRule;
+		};
+		DC8BF099221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D9762DC3072A45E6929B4320;
+			remoteInfo = UnnecessaryNullCheckForCXXDeallocRule;
+		};
+		DC8BF09B221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FC38C3C7C4DE48988D8DC1C2;
+			remoteInfo = UnusedLocalVariableRule;
+		};
+		DC8BF09D221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 013FB89DE815468AB29247F0;
+			remoteInfo = UnusedMethodParameterRule;
+		};
+		DC8BF09F221A7A8100F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AB3BBEC9E1249C58D4745E6;
+			remoteInfo = UselessParenthesesRule;
+		};
+		DC8BF0A1221A7A8800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A34F44A4BFA54A558AE63451;
+			remoteInfo = HTMLReporter;
+		};
+		DC8BF0A3221A7A8800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 749BEF7998294591A6273120;
+			remoteInfo = JSONReporter;
+		};
+		DC8BF0A5221A7A8800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 18832ADAD11D4AA5B27D5409;
+			remoteInfo = PMDReporter;
+		};
+		DC8BF0A7221A7A8800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 230534315D394E8584C6D377;
+			remoteInfo = TextReporter;
+		};
+		DC8BF0A9221A7A8800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E14BDAA989A34D3590CF3D71;
+			remoteInfo = XMLReporter;
+		};
+		DC8BF0AB221A7A8800F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = ABE4CFB464FB43E4B13EEFE1;
+			remoteInfo = XcodeReporter;
+		};
+		DC8BF0B4221A7ACE00F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BF0AD221A7ACE00F5F472 /* COUNTLY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 26AD820D308847CF9B4ED2C0;
+			remoteInfo = Countly;
+		};
+		DC8BF0B6221A7ACE00F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BF0AD221A7ACE00F5F472 /* COUNTLY.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CDB8E95A7E7B478793BE4332;
+			remoteInfo = "test-countly";
+		};
+		DC8BF0B8221A7AD500F5F472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC8BF0AD221A7ACE00F5F472 /* COUNTLY.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 115C8CB1E2D94847A9FAF798;
+			remoteInfo = Countly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189749D1A8664C32A45F8643 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		28D5AA940E5440AB957C3C52 /* Options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Options.cpp; path = lib/Options.cpp; sourceTree = SOURCE_ROOT; };
+		2AA5C6699B6D431095B97EA3 /* libOCLintDriver.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOCLintDriver.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB017686F2D4CC08B89FC25 /* reporters_dlfcn_port.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = reporters_dlfcn_port.cpp; sourceTree = SOURCE_ROOT; };
+		5AD2FF27B68845909A32ABA9 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		66B9153B121E48BFBD79D0B9 /* oclint-0.13.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "oclint-0.13.1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8E6E131C32405085BBBC3A /* rules_dlfcn_port.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = rules_dlfcn_port.cpp; sourceTree = SOURCE_ROOT; };
+		71FA838F76154D96A393FF7D /* CompilerInstance.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CompilerInstance.cpp; path = lib/CompilerInstance.cpp; sourceTree = SOURCE_ROOT; };
+		87D96BA341064B65B4E1AC51 /* DiagnosticDispatcher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = DiagnosticDispatcher.cpp; path = lib/DiagnosticDispatcher.cpp; sourceTree = SOURCE_ROOT; };
+		A31434CB2A2E4AC4A00B2DAA /* Logger.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Logger.cpp; path = lib/Logger.cpp; sourceTree = SOURCE_ROOT; };
+		B2BF2369CB234B338C442848 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B2CFB9833DBA427CAD9E8E0D /* ConfigFile.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ConfigFile.cpp; path = lib/ConfigFile.cpp; sourceTree = SOURCE_ROOT; };
+		CFC9711ECE4946908444712F /* Driver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Driver.cpp; path = lib/Driver.cpp; sourceTree = SOURCE_ROOT; };
+		DC1F9039EED24235A0FD8E81 /* GenericException.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = GenericException.cpp; path = lib/GenericException.cpp; sourceTree = SOURCE_ROOT; };
+		DC8BEF00221A7A5F00F5F472 /* OCLINT_CORE.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCLINT_CORE.xcodeproj; path = "../build/oclint-core/OCLINT_CORE.xcodeproj"; sourceTree = "<group>"; };
+		DC8BEF0C221A7A6300F5F472 /* OCLINT_METRICS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCLINT_METRICS.xcodeproj; path = "../build/oclint-metrics/OCLINT_METRICS.xcodeproj"; sourceTree = "<group>"; };
+		DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCLINT_REPORTERS.xcodeproj; path = "../build/oclint-reporters/OCLINT_REPORTERS.xcodeproj"; sourceTree = "<group>"; };
+		DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OCLINT_RULES.xcodeproj; path = "../build/oclint-rules/OCLINT_RULES.xcodeproj"; sourceTree = "<group>"; };
+		DC8BF0AD221A7ACE00F5F472 /* COUNTLY.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = COUNTLY.xcodeproj; path = ../build/countly/COUNTLY.xcodeproj; sourceTree = "<group>"; };
+		DD634C19C07640E492212B4B /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		DDAF9211BBC14877B484DD4B /* RulesetBasedAnalyzer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RulesetBasedAnalyzer.cpp; path = lib/RulesetBasedAnalyzer.cpp; sourceTree = SOURCE_ROOT; };
+		E39C01B6F9254C9680FA310E /* RulesetFilter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = RulesetFilter.cpp; path = lib/RulesetFilter.cpp; sourceTree = SOURCE_ROOT; };
+		E8AABF9DBDDD494AB66130CA /* Analytics.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = Analytics.cpp; path = lib/Analytics.cpp; sourceTree = SOURCE_ROOT; };
+		F5522798212D4534ADB5062F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC8BF0BA221A7C6C00F5F472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3213D3110DC842738FBDB020 /* oclint-0.13.1 */ = {
+			isa = PBXGroup;
+			children = (
+				590F84A6A17A4BA9A8B121CA /* Source Files */,
+				5AD2FF27B68845909A32ABA9 /* CMakeLists.txt */,
+			);
+			name = "oclint-0.13.1";
+			sourceTree = "<group>";
+		};
+		50EEDDCC7F0141F999373AC6 = {
+			isa = PBXGroup;
+			children = (
+				DC8BEEFF221A7A5300F5F472 /* Depency */,
+				3213D3110DC842738FBDB020 /* oclint-0.13.1 */,
+				C59E4A4D420240AA94A7598A /* intrinsics_gen */,
+				8686A7C25BFB44CC87292B8E /* ALL_BUILD */,
+				9F9F0646F45342F0909EE148 /* OCLintDriver */,
+				832BB4856C994354BC43EB8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		590F84A6A17A4BA9A8B121CA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD634C19C07640E492212B4B /* main.cpp */,
+				4EB017686F2D4CC08B89FC25 /* reporters_dlfcn_port.cpp */,
+				6C8E6E131C32405085BBBC3A /* rules_dlfcn_port.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		832BB4856C994354BC43EB8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AA5C6699B6D431095B97EA3 /* libOCLintDriver.a */,
+				66B9153B121E48BFBD79D0B9 /* oclint-0.13.1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8686A7C25BFB44CC87292B8E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				DDA38EF472AA4609ACABFF3B /* CMake Rules */,
+				B2BF2369CB234B338C442848 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		98B48D3C5B984FE8B8657319 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8AABF9DBDDD494AB66130CA /* Analytics.cpp */,
+				71FA838F76154D96A393FF7D /* CompilerInstance.cpp */,
+				B2CFB9833DBA427CAD9E8E0D /* ConfigFile.cpp */,
+				87D96BA341064B65B4E1AC51 /* DiagnosticDispatcher.cpp */,
+				CFC9711ECE4946908444712F /* Driver.cpp */,
+				DC1F9039EED24235A0FD8E81 /* GenericException.cpp */,
+				A31434CB2A2E4AC4A00B2DAA /* Logger.cpp */,
+				28D5AA940E5440AB957C3C52 /* Options.cpp */,
+				DDAF9211BBC14877B484DD4B /* RulesetBasedAnalyzer.cpp */,
+				E39C01B6F9254C9680FA310E /* RulesetFilter.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9F9F0646F45342F0909EE148 /* OCLintDriver */ = {
+			isa = PBXGroup;
+			children = (
+				98B48D3C5B984FE8B8657319 /* Source Files */,
+				189749D1A8664C32A45F8643 /* CMakeLists.txt */,
+			);
+			name = OCLintDriver;
+			sourceTree = "<group>";
+		};
+		C59E4A4D420240AA94A7598A /* intrinsics_gen */ = {
+			isa = PBXGroup;
+			children = (
+				F5522798212D4534ADB5062F /* CMakeLists.txt */,
+			);
+			name = intrinsics_gen;
+			sourceTree = "<group>";
+		};
+		DC8BEEFF221A7A5300F5F472 /* Depency */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BF0AD221A7ACE00F5F472 /* COUNTLY.xcodeproj */,
+				DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */,
+				DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */,
+				DC8BEF0C221A7A6300F5F472 /* OCLINT_METRICS.xcodeproj */,
+				DC8BEF00221A7A5F00F5F472 /* OCLINT_CORE.xcodeproj */,
+			);
+			name = Depency;
+			sourceTree = "<group>";
+		};
+		DC8BEF01221A7A5F00F5F472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BEF09221A7A5F00F5F472 /* libOCLintCore.a */,
+				DC8BEF0B221A7A5F00F5F472 /* libOCLintRuleSet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8BEF0D221A7A6300F5F472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BEF14221A7A6300F5F472 /* libOCLintMetric.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8BEF16221A7A6500F5F472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BEF22221A7A6600F5F472 /* libHTMLReporter.dylib */,
+				DC8BEF24221A7A6600F5F472 /* libJSONReporter.dylib */,
+				DC8BEF26221A7A6600F5F472 /* libPMDReporter.dylib */,
+				DC8BEF28221A7A6600F5F472 /* libTextReporter.dylib */,
+				DC8BEF2A221A7A6600F5F472 /* libXMLReporter.dylib */,
+				DC8BEF2C221A7A6600F5F472 /* libXcodeReporter.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8BEF2E221A7A6800F5F472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BEF7C221A7A6800F5F472 /* libAvoidBranchingStatementAsLastInLoopRule.dylib */,
+				DC8BEF7E221A7A6800F5F472 /* libAvoidDefaultArgumentsOnVirtualMethodsRule.dylib */,
+				DC8BEF80221A7A6800F5F472 /* libAvoidPrivateStaticMembersRule.dylib */,
+				DC8BEF82221A7A6800F5F472 /* libBaseClassDestructorShouldBeVirtualOrProtectedRule.dylib */,
+				DC8BEF84221A7A6800F5F472 /* libBitwiseOperatorInConditionalRule.dylib */,
+				DC8BEF86221A7A6800F5F472 /* libBrokenNullCheckRule.dylib */,
+				DC8BEF88221A7A6800F5F472 /* libBrokenOddnessCheckRule.dylib */,
+				DC8BEF8A221A7A6800F5F472 /* libCollapsibleIfStatementsRule.dylib */,
+				DC8BEF8C221A7A6800F5F472 /* libConstantConditionalOperatorRule.dylib */,
+				DC8BEF8E221A7A6800F5F472 /* libConstantIfExpressionRule.dylib */,
+				DC8BEF90221A7A6800F5F472 /* libCoveredSwitchStatementsDontNeedDefaultRule.dylib */,
+				DC8BEF92221A7A6800F5F472 /* libCyclomaticComplexityRule.dylib */,
+				DC8BEF94221A7A6800F5F472 /* libDeadCodeRule.dylib */,
+				DC8BEF96221A7A6800F5F472 /* libDefaultLabelNotLastInSwitchStatementRule.dylib */,
+				DC8BEF98221A7A6800F5F472 /* libDestructorOfVirtualClassRule.dylib */,
+				DC8BEF9A221A7A6800F5F472 /* libDoubleNegativeRule.dylib */,
+				DC8BEF9C221A7A6800F5F472 /* libEmptyCatchStatementRule.dylib */,
+				DC8BEF9E221A7A6800F5F472 /* libEmptyDoWhileStatementRule.dylib */,
+				DC8BEFA0221A7A6800F5F472 /* libEmptyElseBlockRule.dylib */,
+				DC8BEFA2221A7A6800F5F472 /* libEmptyFinallyStatementRule.dylib */,
+				DC8BEFA4221A7A6800F5F472 /* libEmptyForStatementRule.dylib */,
+				DC8BEFA6221A7A6800F5F472 /* libEmptyIfStatementRule.dylib */,
+				DC8BEFA8221A7A6800F5F472 /* libEmptySwitchStatementRule.dylib */,
+				DC8BEFAA221A7A6800F5F472 /* libEmptyTryStatementRule.dylib */,
+				DC8BEFAC221A7A6800F5F472 /* libEmptyWhileStatementRule.dylib */,
+				DC8BEFAE221A7A6800F5F472 /* libForLoopShouldBeWhileLoopRule.dylib */,
+				DC8BEFB0221A7A6800F5F472 /* libGotoStatementRule.dylib */,
+				DC8BEFB2221A7A6800F5F472 /* libInvertedLogicRule.dylib */,
+				DC8BEFB4221A7A6800F5F472 /* libJumbledIncrementerRule.dylib */,
+				DC8BEFB6221A7A6800F5F472 /* libLongClassRule.dylib */,
+				DC8BEFB8221A7A6800F5F472 /* libLongLineRule.dylib */,
+				DC8BEFBA221A7A6800F5F472 /* libLongMethodRule.dylib */,
+				DC8BEFBC221A7A6800F5F472 /* libLongVariableNameRule.dylib */,
+				DC8BEFBE221A7A6800F5F472 /* libMisplacedNullCheckRule.dylib */,
+				DC8BEFC0221A7A6800F5F472 /* libMissingBreakInSwitchStatementRule.dylib */,
+				DC8BEFC2221A7A6800F5F472 /* libMultipleUnaryOperatorRule.dylib */,
+				DC8BEFC4221A7A6800F5F472 /* libNPathComplexityRule.dylib */,
+				DC8BEFC6221A7A6800F5F472 /* libNcssMethodCountRule.dylib */,
+				DC8BEFC8221A7A6800F5F472 /* libNestedBlockDepthRule.dylib */,
+				DC8BEFCA221A7A6800F5F472 /* libNonCaseLabelInSwitchStatementRule.dylib */,
+				DC8BEFCC221A7A6800F5F472 /* libOCLintAbstractRule.a */,
+				DC8BEFCE221A7A6800F5F472 /* libOCLintHelper.a */,
+				DC8BEFD0221A7A6800F5F472 /* libOCLintUtil.a */,
+				DC8BEFD2221A7A6800F5F472 /* libObjCAssignIvarOutsideAccessorsRule.dylib */,
+				DC8BEFD4221A7A6800F5F472 /* libObjCBoxedExpressionsRule.dylib */,
+				DC8BEFD6221A7A6800F5F472 /* libObjCContainerLiteralsRule.dylib */,
+				DC8BEFD8221A7A6800F5F472 /* libObjCNSNumberLiteralsRule.dylib */,
+				DC8BEFDA221A7A6800F5F472 /* libObjCObjectSubscriptingRule.dylib */,
+				DC8BEFDC221A7A6800F5F472 /* libObjCVerifyIsEqualHashRule.dylib */,
+				DC8BEFDE221A7A6800F5F472 /* libObjCVerifyMustCallSuperRule.dylib */,
+				DC8BEFE0221A7A6800F5F472 /* libObjCVerifyProhibitedCallRule.dylib */,
+				DC8BEFE2221A7A6800F5F472 /* libObjCVerifyProtectedMethodRule.dylib */,
+				DC8BEFE4221A7A6800F5F472 /* libObjCVerifySubclassMustImplementRule.dylib */,
+				DC8BEFE6221A7A6800F5F472 /* libParameterReassignmentRule.dylib */,
+				DC8BEFE8221A7A6800F5F472 /* libPreferEarlyExitRule.dylib */,
+				DC8BEFEA221A7A6800F5F472 /* libRedundantConditionalOperatorRule.dylib */,
+				DC8BEFEC221A7A6800F5F472 /* libRedundantIfStatementRule.dylib */,
+				DC8BEFEE221A7A6800F5F472 /* libRedundantLocalVariableRule.dylib */,
+				DC8BEFF0221A7A6800F5F472 /* libRedundantNilCheckRule.dylib */,
+				DC8BEFF2221A7A6800F5F472 /* libReturnFromFinallyBlockRule.dylib */,
+				DC8BEFF4221A7A6800F5F472 /* libShortVariableNameRule.dylib */,
+				DC8BEFF6221A7A6800F5F472 /* libSwitchStatementsShouldHaveDefaultRule.dylib */,
+				DC8BEFF8221A7A6800F5F472 /* libThrowExceptionFromFinallyBlockRule.dylib */,
+				DC8BEFFA221A7A6800F5F472 /* libTooFewBranchesInSwitchStatementRule.dylib */,
+				DC8BEFFC221A7A6800F5F472 /* libTooManyFieldsRule.dylib */,
+				DC8BEFFE221A7A6800F5F472 /* libTooManyMethodsRule.dylib */,
+				DC8BF000221A7A6800F5F472 /* libTooManyParametersRule.dylib */,
+				DC8BF002221A7A6800F5F472 /* libUnnecessaryElseStatementRule.dylib */,
+				DC8BF004221A7A6800F5F472 /* libUnnecessaryNullCheckForCXXDeallocRule.dylib */,
+				DC8BF006221A7A6800F5F472 /* libUnusedLocalVariableRule.dylib */,
+				DC8BF008221A7A6800F5F472 /* libUnusedMethodParameterRule.dylib */,
+				DC8BF00A221A7A6800F5F472 /* libUselessParenthesesRule.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC8BF0AE221A7ACE00F5F472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC8BF0B5221A7ACE00F5F472 /* libCountly.a */,
+				DC8BF0B7221A7ACE00F5F472 /* test-countly */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDA38EF472AA4609ACABFF3B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		455059C133FA455A858D67AE /* OCLintDriver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB32ECA4379E434C87FC5A8F /* Build configuration list for PBXNativeTarget "OCLintDriver" */;
+			buildPhases = (
+				729FE056B1F24EB5B1A1ED70 /* Sources */,
+				DC8BF0BA221A7C6C00F5F472 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC8BF0B9221A7AD500F5F472 /* PBXTargetDependency */,
+				DC8BF0A2221A7A8800F5F472 /* PBXTargetDependency */,
+				DC8BF0A4221A7A8800F5F472 /* PBXTargetDependency */,
+				DC8BF0A6221A7A8800F5F472 /* PBXTargetDependency */,
+				DC8BF0A8221A7A8800F5F472 /* PBXTargetDependency */,
+				DC8BF0AA221A7A8800F5F472 /* PBXTargetDependency */,
+				DC8BF0AC221A7A8800F5F472 /* PBXTargetDependency */,
+				DC8BF012221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF014221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF016221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF018221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF01A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF01C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF01E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF020221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF022221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF024221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF026221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF028221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF02A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF02C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF02E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF030221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF032221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF034221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF036221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF038221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF03A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF03C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF03E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF040221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF042221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF044221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF046221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF048221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF04A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF04C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF04E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF050221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF052221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF054221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF056221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF058221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF05A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF05C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF05E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF060221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF062221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF064221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF066221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF068221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF06A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF06C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF06E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF070221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF072221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF074221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF076221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF078221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF07A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF07C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF07E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF080221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF082221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF084221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF086221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF088221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF08A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF08C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF08E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF090221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF092221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF094221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF096221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF098221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF09A221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF09C221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF09E221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF0A0221A7A8100F5F472 /* PBXTargetDependency */,
+				DC8BF010221A7A7B00F5F472 /* PBXTargetDependency */,
+				DC8BF00C221A7A7600F5F472 /* PBXTargetDependency */,
+				DC8BF00E221A7A7600F5F472 /* PBXTargetDependency */,
+				89D9F801B277480FB68273D7 /* PBXTargetDependency */,
+			);
+			name = OCLintDriver;
+			productName = OCLintDriver;
+			productReference = 2AA5C6699B6D431095B97EA3 /* libOCLintDriver.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C5D0084B59F848B79D1A9C65 /* oclint-0.13.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85DBFBA96B5D4A60A966A918 /* Build configuration list for PBXNativeTarget "oclint-0.13.1" */;
+			buildPhases = (
+				833B8FCB3F6F4B97977500B1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				637E0BEFEC7B40769272940F /* PBXTargetDependency */,
+				F6FE0C5F78E14051BCE9B4A1 /* PBXTargetDependency */,
+			);
+			name = "oclint-0.13.1";
+			productName = "oclint-0.13.1";
+			productReference = 66B9153B121E48BFBD79D0B9 /* oclint-0.13.1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E31852858FD434EBEB1F930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 063A8F18D86F47B0A23F6620 /* Build configuration list for PBXProject "OCLINT_DRIVER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50EEDDCC7F0141F999373AC6;
+			projectDirPath = "/Users/langlib/Desktop/oclint/oclint-driver";
+			projectReferences = (
+				{
+					ProductGroup = DC8BF0AE221A7ACE00F5F472 /* Products */;
+					ProjectRef = DC8BF0AD221A7ACE00F5F472 /* COUNTLY.xcodeproj */;
+				},
+				{
+					ProductGroup = DC8BEF01221A7A5F00F5F472 /* Products */;
+					ProjectRef = DC8BEF00221A7A5F00F5F472 /* OCLINT_CORE.xcodeproj */;
+				},
+				{
+					ProductGroup = DC8BEF0D221A7A6300F5F472 /* Products */;
+					ProjectRef = DC8BEF0C221A7A6300F5F472 /* OCLINT_METRICS.xcodeproj */;
+				},
+				{
+					ProductGroup = DC8BEF16221A7A6500F5F472 /* Products */;
+					ProjectRef = DC8BEF15221A7A6500F5F472 /* OCLINT_REPORTERS.xcodeproj */;
+				},
+				{
+					ProductGroup = DC8BEF2E221A7A6800F5F472 /* Products */;
+					ProjectRef = DC8BEF2D221A7A6800F5F472 /* OCLINT_RULES.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				028B4C41598149938B77638A /* ALL_BUILD */,
+				455059C133FA455A858D67AE /* OCLintDriver */,
+				FFCF95966C1B42949BEEA865 /* ZERO_CHECK */,
+				0BA80F99EFF3451B9BF0E0CC /* intrinsics_gen */,
+				C5D0084B59F848B79D1A9C65 /* oclint-0.13.1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DC8BEF09221A7A5F00F5F472 /* libOCLintCore.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCLintCore.a;
+			remoteRef = DC8BEF08221A7A5F00F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF0B221A7A5F00F5F472 /* libOCLintRuleSet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCLintRuleSet.a;
+			remoteRef = DC8BEF0A221A7A5F00F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF14221A7A6300F5F472 /* libOCLintMetric.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCLintMetric.a;
+			remoteRef = DC8BEF13221A7A6300F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF22221A7A6600F5F472 /* libHTMLReporter.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libHTMLReporter.dylib;
+			remoteRef = DC8BEF21221A7A6600F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF24221A7A6600F5F472 /* libJSONReporter.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libJSONReporter.dylib;
+			remoteRef = DC8BEF23221A7A6600F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF26221A7A6600F5F472 /* libPMDReporter.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libPMDReporter.dylib;
+			remoteRef = DC8BEF25221A7A6600F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF28221A7A6600F5F472 /* libTextReporter.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libTextReporter.dylib;
+			remoteRef = DC8BEF27221A7A6600F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF2A221A7A6600F5F472 /* libXMLReporter.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libXMLReporter.dylib;
+			remoteRef = DC8BEF29221A7A6600F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF2C221A7A6600F5F472 /* libXcodeReporter.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libXcodeReporter.dylib;
+			remoteRef = DC8BEF2B221A7A6600F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF7C221A7A6800F5F472 /* libAvoidBranchingStatementAsLastInLoopRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libAvoidBranchingStatementAsLastInLoopRule.dylib;
+			remoteRef = DC8BEF7B221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF7E221A7A6800F5F472 /* libAvoidDefaultArgumentsOnVirtualMethodsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libAvoidDefaultArgumentsOnVirtualMethodsRule.dylib;
+			remoteRef = DC8BEF7D221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF80221A7A6800F5F472 /* libAvoidPrivateStaticMembersRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libAvoidPrivateStaticMembersRule.dylib;
+			remoteRef = DC8BEF7F221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF82221A7A6800F5F472 /* libBaseClassDestructorShouldBeVirtualOrProtectedRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libBaseClassDestructorShouldBeVirtualOrProtectedRule.dylib;
+			remoteRef = DC8BEF81221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF84221A7A6800F5F472 /* libBitwiseOperatorInConditionalRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libBitwiseOperatorInConditionalRule.dylib;
+			remoteRef = DC8BEF83221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF86221A7A6800F5F472 /* libBrokenNullCheckRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libBrokenNullCheckRule.dylib;
+			remoteRef = DC8BEF85221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF88221A7A6800F5F472 /* libBrokenOddnessCheckRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libBrokenOddnessCheckRule.dylib;
+			remoteRef = DC8BEF87221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF8A221A7A6800F5F472 /* libCollapsibleIfStatementsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libCollapsibleIfStatementsRule.dylib;
+			remoteRef = DC8BEF89221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF8C221A7A6800F5F472 /* libConstantConditionalOperatorRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libConstantConditionalOperatorRule.dylib;
+			remoteRef = DC8BEF8B221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF8E221A7A6800F5F472 /* libConstantIfExpressionRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libConstantIfExpressionRule.dylib;
+			remoteRef = DC8BEF8D221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF90221A7A6800F5F472 /* libCoveredSwitchStatementsDontNeedDefaultRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libCoveredSwitchStatementsDontNeedDefaultRule.dylib;
+			remoteRef = DC8BEF8F221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF92221A7A6800F5F472 /* libCyclomaticComplexityRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libCyclomaticComplexityRule.dylib;
+			remoteRef = DC8BEF91221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF94221A7A6800F5F472 /* libDeadCodeRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libDeadCodeRule.dylib;
+			remoteRef = DC8BEF93221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF96221A7A6800F5F472 /* libDefaultLabelNotLastInSwitchStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libDefaultLabelNotLastInSwitchStatementRule.dylib;
+			remoteRef = DC8BEF95221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF98221A7A6800F5F472 /* libDestructorOfVirtualClassRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libDestructorOfVirtualClassRule.dylib;
+			remoteRef = DC8BEF97221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF9A221A7A6800F5F472 /* libDoubleNegativeRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libDoubleNegativeRule.dylib;
+			remoteRef = DC8BEF99221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF9C221A7A6800F5F472 /* libEmptyCatchStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyCatchStatementRule.dylib;
+			remoteRef = DC8BEF9B221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEF9E221A7A6800F5F472 /* libEmptyDoWhileStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyDoWhileStatementRule.dylib;
+			remoteRef = DC8BEF9D221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFA0221A7A6800F5F472 /* libEmptyElseBlockRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyElseBlockRule.dylib;
+			remoteRef = DC8BEF9F221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFA2221A7A6800F5F472 /* libEmptyFinallyStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyFinallyStatementRule.dylib;
+			remoteRef = DC8BEFA1221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFA4221A7A6800F5F472 /* libEmptyForStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyForStatementRule.dylib;
+			remoteRef = DC8BEFA3221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFA6221A7A6800F5F472 /* libEmptyIfStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyIfStatementRule.dylib;
+			remoteRef = DC8BEFA5221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFA8221A7A6800F5F472 /* libEmptySwitchStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptySwitchStatementRule.dylib;
+			remoteRef = DC8BEFA7221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFAA221A7A6800F5F472 /* libEmptyTryStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyTryStatementRule.dylib;
+			remoteRef = DC8BEFA9221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFAC221A7A6800F5F472 /* libEmptyWhileStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libEmptyWhileStatementRule.dylib;
+			remoteRef = DC8BEFAB221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFAE221A7A6800F5F472 /* libForLoopShouldBeWhileLoopRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libForLoopShouldBeWhileLoopRule.dylib;
+			remoteRef = DC8BEFAD221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFB0221A7A6800F5F472 /* libGotoStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libGotoStatementRule.dylib;
+			remoteRef = DC8BEFAF221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFB2221A7A6800F5F472 /* libInvertedLogicRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libInvertedLogicRule.dylib;
+			remoteRef = DC8BEFB1221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFB4221A7A6800F5F472 /* libJumbledIncrementerRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libJumbledIncrementerRule.dylib;
+			remoteRef = DC8BEFB3221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFB6221A7A6800F5F472 /* libLongClassRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libLongClassRule.dylib;
+			remoteRef = DC8BEFB5221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFB8221A7A6800F5F472 /* libLongLineRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libLongLineRule.dylib;
+			remoteRef = DC8BEFB7221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFBA221A7A6800F5F472 /* libLongMethodRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libLongMethodRule.dylib;
+			remoteRef = DC8BEFB9221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFBC221A7A6800F5F472 /* libLongVariableNameRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libLongVariableNameRule.dylib;
+			remoteRef = DC8BEFBB221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFBE221A7A6800F5F472 /* libMisplacedNullCheckRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libMisplacedNullCheckRule.dylib;
+			remoteRef = DC8BEFBD221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFC0221A7A6800F5F472 /* libMissingBreakInSwitchStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libMissingBreakInSwitchStatementRule.dylib;
+			remoteRef = DC8BEFBF221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFC2221A7A6800F5F472 /* libMultipleUnaryOperatorRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libMultipleUnaryOperatorRule.dylib;
+			remoteRef = DC8BEFC1221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFC4221A7A6800F5F472 /* libNPathComplexityRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libNPathComplexityRule.dylib;
+			remoteRef = DC8BEFC3221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFC6221A7A6800F5F472 /* libNcssMethodCountRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libNcssMethodCountRule.dylib;
+			remoteRef = DC8BEFC5221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFC8221A7A6800F5F472 /* libNestedBlockDepthRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libNestedBlockDepthRule.dylib;
+			remoteRef = DC8BEFC7221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFCA221A7A6800F5F472 /* libNonCaseLabelInSwitchStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libNonCaseLabelInSwitchStatementRule.dylib;
+			remoteRef = DC8BEFC9221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFCC221A7A6800F5F472 /* libOCLintAbstractRule.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCLintAbstractRule.a;
+			remoteRef = DC8BEFCB221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFCE221A7A6800F5F472 /* libOCLintHelper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCLintHelper.a;
+			remoteRef = DC8BEFCD221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFD0221A7A6800F5F472 /* libOCLintUtil.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libOCLintUtil.a;
+			remoteRef = DC8BEFCF221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFD2221A7A6800F5F472 /* libObjCAssignIvarOutsideAccessorsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCAssignIvarOutsideAccessorsRule.dylib;
+			remoteRef = DC8BEFD1221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFD4221A7A6800F5F472 /* libObjCBoxedExpressionsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCBoxedExpressionsRule.dylib;
+			remoteRef = DC8BEFD3221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFD6221A7A6800F5F472 /* libObjCContainerLiteralsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCContainerLiteralsRule.dylib;
+			remoteRef = DC8BEFD5221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFD8221A7A6800F5F472 /* libObjCNSNumberLiteralsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCNSNumberLiteralsRule.dylib;
+			remoteRef = DC8BEFD7221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFDA221A7A6800F5F472 /* libObjCObjectSubscriptingRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCObjectSubscriptingRule.dylib;
+			remoteRef = DC8BEFD9221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFDC221A7A6800F5F472 /* libObjCVerifyIsEqualHashRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCVerifyIsEqualHashRule.dylib;
+			remoteRef = DC8BEFDB221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFDE221A7A6800F5F472 /* libObjCVerifyMustCallSuperRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCVerifyMustCallSuperRule.dylib;
+			remoteRef = DC8BEFDD221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFE0221A7A6800F5F472 /* libObjCVerifyProhibitedCallRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCVerifyProhibitedCallRule.dylib;
+			remoteRef = DC8BEFDF221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFE2221A7A6800F5F472 /* libObjCVerifyProtectedMethodRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCVerifyProtectedMethodRule.dylib;
+			remoteRef = DC8BEFE1221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFE4221A7A6800F5F472 /* libObjCVerifySubclassMustImplementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libObjCVerifySubclassMustImplementRule.dylib;
+			remoteRef = DC8BEFE3221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFE6221A7A6800F5F472 /* libParameterReassignmentRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libParameterReassignmentRule.dylib;
+			remoteRef = DC8BEFE5221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFE8221A7A6800F5F472 /* libPreferEarlyExitRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libPreferEarlyExitRule.dylib;
+			remoteRef = DC8BEFE7221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFEA221A7A6800F5F472 /* libRedundantConditionalOperatorRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libRedundantConditionalOperatorRule.dylib;
+			remoteRef = DC8BEFE9221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFEC221A7A6800F5F472 /* libRedundantIfStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libRedundantIfStatementRule.dylib;
+			remoteRef = DC8BEFEB221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFEE221A7A6800F5F472 /* libRedundantLocalVariableRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libRedundantLocalVariableRule.dylib;
+			remoteRef = DC8BEFED221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFF0221A7A6800F5F472 /* libRedundantNilCheckRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libRedundantNilCheckRule.dylib;
+			remoteRef = DC8BEFEF221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFF2221A7A6800F5F472 /* libReturnFromFinallyBlockRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libReturnFromFinallyBlockRule.dylib;
+			remoteRef = DC8BEFF1221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFF4221A7A6800F5F472 /* libShortVariableNameRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libShortVariableNameRule.dylib;
+			remoteRef = DC8BEFF3221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFF6221A7A6800F5F472 /* libSwitchStatementsShouldHaveDefaultRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libSwitchStatementsShouldHaveDefaultRule.dylib;
+			remoteRef = DC8BEFF5221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFF8221A7A6800F5F472 /* libThrowExceptionFromFinallyBlockRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libThrowExceptionFromFinallyBlockRule.dylib;
+			remoteRef = DC8BEFF7221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFFA221A7A6800F5F472 /* libTooFewBranchesInSwitchStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libTooFewBranchesInSwitchStatementRule.dylib;
+			remoteRef = DC8BEFF9221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFFC221A7A6800F5F472 /* libTooManyFieldsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libTooManyFieldsRule.dylib;
+			remoteRef = DC8BEFFB221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BEFFE221A7A6800F5F472 /* libTooManyMethodsRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libTooManyMethodsRule.dylib;
+			remoteRef = DC8BEFFD221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF000221A7A6800F5F472 /* libTooManyParametersRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libTooManyParametersRule.dylib;
+			remoteRef = DC8BEFFF221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF002221A7A6800F5F472 /* libUnnecessaryElseStatementRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUnnecessaryElseStatementRule.dylib;
+			remoteRef = DC8BF001221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF004221A7A6800F5F472 /* libUnnecessaryNullCheckForCXXDeallocRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUnnecessaryNullCheckForCXXDeallocRule.dylib;
+			remoteRef = DC8BF003221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF006221A7A6800F5F472 /* libUnusedLocalVariableRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUnusedLocalVariableRule.dylib;
+			remoteRef = DC8BF005221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF008221A7A6800F5F472 /* libUnusedMethodParameterRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUnusedMethodParameterRule.dylib;
+			remoteRef = DC8BF007221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF00A221A7A6800F5F472 /* libUselessParenthesesRule.dylib */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.dylib";
+			path = libUselessParenthesesRule.dylib;
+			remoteRef = DC8BF009221A7A6800F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF0B5221A7ACE00F5F472 /* libCountly.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCountly.a;
+			remoteRef = DC8BF0B4221A7ACE00F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DC8BF0B7221A7ACE00F5F472 /* test-countly */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "test-countly";
+			remoteRef = DC8BF0B6221A7ACE00F5F472 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65DB5498FC0C462DA07BEB24 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-driver -f /Users/langlib/Desktop/oclint/build/oclint-driver/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F0F1574BBC55418B9A74FDFB /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-driver -f /Users/langlib/Desktop/oclint/build/oclint-driver/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		729FE056B1F24EB5B1A1ED70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD3F6AEFB1748109183F69B /* Analytics.cpp in Sources */,
+				F0F56E4AAB044A0DA3A9BE92 /* CompilerInstance.cpp in Sources */,
+				2319F53FDE6146D88214BB7E /* ConfigFile.cpp in Sources */,
+				7692F4DFC42447F09EE8BFCB /* DiagnosticDispatcher.cpp in Sources */,
+				EA09FDD100204E2FA13BADC4 /* Driver.cpp in Sources */,
+				56D160D9229E46BB98BB6BF0 /* GenericException.cpp in Sources */,
+				FB89F013FCE94D2BB9FC5614 /* Logger.cpp in Sources */,
+				5278A2104D99415E9A0BFD2C /* Options.cpp in Sources */,
+				1525116FA50B487B8FF21B18 /* RulesetBasedAnalyzer.cpp in Sources */,
+				30E30220314E401ABF6BAC3E /* RulesetFilter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833B8FCB3F6F4B97977500B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14620C2FC4274FE8968FF807 /* main.cpp in Sources */,
+				7BDC4C1E04184D37BC10AA08 /* reporters_dlfcn_port.cpp in Sources */,
+				850ACC689BC041A28E116C8D /* rules_dlfcn_port.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18656434D5F64CB388732D0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCF95966C1B42949BEEA865 /* ZERO_CHECK */;
+			targetProxy = 73F88F6799D643B0A85EC70C /* PBXContainerItemProxy */;
+		};
+		548B08CA220247B38BDF06D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 455059C133FA455A858D67AE /* OCLintDriver */;
+			targetProxy = 1505F7CE2A1240329A212381 /* PBXContainerItemProxy */;
+		};
+		616CE1EEAEF040C0B657DC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5D0084B59F848B79D1A9C65 /* oclint-0.13.1 */;
+			targetProxy = 4527228FC1854EDAB10BFCBB /* PBXContainerItemProxy */;
+		};
+		637E0BEFEC7B40769272940F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCF95966C1B42949BEEA865 /* ZERO_CHECK */;
+			targetProxy = 4F54065C80E94D4EB2290AB7 /* PBXContainerItemProxy */;
+		};
+		89D9F801B277480FB68273D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCF95966C1B42949BEEA865 /* ZERO_CHECK */;
+			targetProxy = 217A0A2C8E9747B09FA056EE /* PBXContainerItemProxy */;
+		};
+		DC8BF00C221A7A7600F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCLintCore;
+			targetProxy = DC8BF00B221A7A7600F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF00E221A7A7600F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCLintRuleSet;
+			targetProxy = DC8BF00D221A7A7600F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF010221A7A7B00F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCLintMetric;
+			targetProxy = DC8BF00F221A7A7B00F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF012221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvoidBranchingStatementAsLastInLoopRule;
+			targetProxy = DC8BF011221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF014221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvoidDefaultArgumentsOnVirtualMethodsRule;
+			targetProxy = DC8BF013221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF016221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AvoidPrivateStaticMembersRule;
+			targetProxy = DC8BF015221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF018221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BaseClassDestructorShouldBeVirtualOrProtectedRule;
+			targetProxy = DC8BF017221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF01A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BitwiseOperatorInConditionalRule;
+			targetProxy = DC8BF019221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF01C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BrokenNullCheckRule;
+			targetProxy = DC8BF01B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF01E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BrokenOddnessCheckRule;
+			targetProxy = DC8BF01D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF020221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CollapsibleIfStatementsRule;
+			targetProxy = DC8BF01F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF022221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConstantConditionalOperatorRule;
+			targetProxy = DC8BF021221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF024221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ConstantIfExpressionRule;
+			targetProxy = DC8BF023221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF026221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CoveredSwitchStatementsDontNeedDefaultRule;
+			targetProxy = DC8BF025221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF028221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CyclomaticComplexityRule;
+			targetProxy = DC8BF027221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF02A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeadCodeRule;
+			targetProxy = DC8BF029221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF02C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DefaultLabelNotLastInSwitchStatementRule;
+			targetProxy = DC8BF02B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF02E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DestructorOfVirtualClassRule;
+			targetProxy = DC8BF02D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF030221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoubleNegativeRule;
+			targetProxy = DC8BF02F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF032221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyCatchStatementRule;
+			targetProxy = DC8BF031221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF034221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyDoWhileStatementRule;
+			targetProxy = DC8BF033221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF036221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyElseBlockRule;
+			targetProxy = DC8BF035221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF038221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyFinallyStatementRule;
+			targetProxy = DC8BF037221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF03A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyForStatementRule;
+			targetProxy = DC8BF039221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF03C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyIfStatementRule;
+			targetProxy = DC8BF03B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF03E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptySwitchStatementRule;
+			targetProxy = DC8BF03D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF040221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyTryStatementRule;
+			targetProxy = DC8BF03F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF042221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EmptyWhileStatementRule;
+			targetProxy = DC8BF041221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF044221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ForLoopShouldBeWhileLoopRule;
+			targetProxy = DC8BF043221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF046221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GotoStatementRule;
+			targetProxy = DC8BF045221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF048221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = InvertedLogicRule;
+			targetProxy = DC8BF047221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF04A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JumbledIncrementerRule;
+			targetProxy = DC8BF049221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF04C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LongClassRule;
+			targetProxy = DC8BF04B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF04E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LongLineRule;
+			targetProxy = DC8BF04D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF050221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LongMethodRule;
+			targetProxy = DC8BF04F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF052221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LongVariableNameRule;
+			targetProxy = DC8BF051221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF054221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MisplacedNullCheckRule;
+			targetProxy = DC8BF053221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF056221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MissingBreakInSwitchStatementRule;
+			targetProxy = DC8BF055221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF058221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MultipleUnaryOperatorRule;
+			targetProxy = DC8BF057221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF05A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NPathComplexityRule;
+			targetProxy = DC8BF059221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF05C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NcssMethodCountRule;
+			targetProxy = DC8BF05B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF05E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedBlockDepthRule;
+			targetProxy = DC8BF05D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF060221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NonCaseLabelInSwitchStatementRule;
+			targetProxy = DC8BF05F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF062221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCLintAbstractRule;
+			targetProxy = DC8BF061221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF064221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCLintHelper;
+			targetProxy = DC8BF063221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF066221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OCLintUtil;
+			targetProxy = DC8BF065221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF068221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCAssignIvarOutsideAccessorsRule;
+			targetProxy = DC8BF067221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF06A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCBoxedExpressionsRule;
+			targetProxy = DC8BF069221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF06C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCContainerLiteralsRule;
+			targetProxy = DC8BF06B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF06E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCNSNumberLiteralsRule;
+			targetProxy = DC8BF06D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF070221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCObjectSubscriptingRule;
+			targetProxy = DC8BF06F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF072221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCVerifyIsEqualHashRule;
+			targetProxy = DC8BF071221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF074221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCVerifyMustCallSuperRule;
+			targetProxy = DC8BF073221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF076221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCVerifyProhibitedCallRule;
+			targetProxy = DC8BF075221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF078221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCVerifyProtectedMethodRule;
+			targetProxy = DC8BF077221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF07A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ObjCVerifySubclassMustImplementRule;
+			targetProxy = DC8BF079221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF07C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ParameterReassignmentRule;
+			targetProxy = DC8BF07B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF07E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PreferEarlyExitRule;
+			targetProxy = DC8BF07D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF080221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RedundantConditionalOperatorRule;
+			targetProxy = DC8BF07F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF082221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RedundantIfStatementRule;
+			targetProxy = DC8BF081221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF084221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RedundantLocalVariableRule;
+			targetProxy = DC8BF083221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF086221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RedundantNilCheckRule;
+			targetProxy = DC8BF085221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF088221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReturnFromFinallyBlockRule;
+			targetProxy = DC8BF087221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF08A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShortVariableNameRule;
+			targetProxy = DC8BF089221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF08C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwitchStatementsShouldHaveDefaultRule;
+			targetProxy = DC8BF08B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF08E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ThrowExceptionFromFinallyBlockRule;
+			targetProxy = DC8BF08D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF090221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TooFewBranchesInSwitchStatementRule;
+			targetProxy = DC8BF08F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF092221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TooManyFieldsRule;
+			targetProxy = DC8BF091221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF094221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TooManyMethodsRule;
+			targetProxy = DC8BF093221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF096221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TooManyParametersRule;
+			targetProxy = DC8BF095221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF098221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnnecessaryElseStatementRule;
+			targetProxy = DC8BF097221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF09A221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnnecessaryNullCheckForCXXDeallocRule;
+			targetProxy = DC8BF099221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF09C221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnusedLocalVariableRule;
+			targetProxy = DC8BF09B221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF09E221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UnusedMethodParameterRule;
+			targetProxy = DC8BF09D221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0A0221A7A8100F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UselessParenthesesRule;
+			targetProxy = DC8BF09F221A7A8100F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0A2221A7A8800F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HTMLReporter;
+			targetProxy = DC8BF0A1221A7A8800F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0A4221A7A8800F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONReporter;
+			targetProxy = DC8BF0A3221A7A8800F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0A6221A7A8800F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PMDReporter;
+			targetProxy = DC8BF0A5221A7A8800F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0A8221A7A8800F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextReporter;
+			targetProxy = DC8BF0A7221A7A8800F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0AA221A7A8800F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMLReporter;
+			targetProxy = DC8BF0A9221A7A8800F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0AC221A7A8800F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XcodeReporter;
+			targetProxy = DC8BF0AB221A7A8800F5F472 /* PBXContainerItemProxy */;
+		};
+		DC8BF0B9221A7AD500F5F472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Countly;
+			targetProxy = DC8BF0B8221A7AD500F5F472 /* PBXContainerItemProxy */;
+		};
+		DEE309A4B6894E59B25D897C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCF95966C1B42949BEEA865 /* ZERO_CHECK */;
+			targetProxy = 20048715AD424A6083151EFC /* PBXContainerItemProxy */;
+		};
+		F6FE0C5F78E14051BCE9B4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 455059C133FA455A858D67AE /* OCLintDriver */;
+			targetProxy = 7006581907754B30BF42E7B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BFBD27EE6344ADC8C753A4C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-driver/bin/MinSizeRel";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib /Users/langlib/Desktop/oclint/build/countly/lib /usr/local/opt/openssl/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/llvm/lib,
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib",
+					"/Users/langlib/Desktop/oclint/build/countly/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/build/countly/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-DNDEBUG",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/langlib/Desktop/oclint/build/oclint-driver/lib/MinSizeRel/libOCLintDriver.a",
+					"-lOCLintRuleSet",
+					"-lOCLintCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangRewriteFrontend",
+					"-lclangRewrite",
+					"-lclangTooling",
+					"-lclangFrontend",
+					"-lclangDriver",
+					"-lclangSerialization",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangAnalysis",
+					"-lclangEdit",
+					"-lclangASTMatchers",
+					"-lclangAST",
+					"-lclangLex",
+					"-lclangBasic",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAsmParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMInstrumentation.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMOption.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lCountly",
+					/usr/local/opt/openssl/lib/libssl.a,
+					/usr/local/opt/openssl/lib/libcrypto.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMTransformUtils.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAnalysis.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMProfileData.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMObject.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMCore.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMC.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBinaryFormat.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoCodeView.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoMSF.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lz",
+					"-lcurses",
+					"-lm",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDemangle.a,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "oclint-0.13.1";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		43B97B0FCA9A4140811B9D31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-driver/bin/Debug";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib /Users/langlib/Desktop/oclint/build/countly/lib /usr/local/opt/openssl/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/llvm/lib,
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib",
+					"/Users/langlib/Desktop/oclint/build/countly/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/build/countly/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/langlib/Desktop/oclint/build/oclint-driver/lib/Debug/libOCLintDriver.a",
+					"-lOCLintRuleSet",
+					"-lOCLintCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangRewriteFrontend",
+					"-lclangRewrite",
+					"-lclangTooling",
+					"-lclangFrontend",
+					"-lclangDriver",
+					"-lclangSerialization",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangAnalysis",
+					"-lclangEdit",
+					"-lclangASTMatchers",
+					"-lclangAST",
+					"-lclangLex",
+					"-lclangBasic",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAsmParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMInstrumentation.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMOption.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lCountly",
+					/usr/local/opt/openssl/lib/libssl.a,
+					/usr/local/opt/openssl/lib/libcrypto.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMTransformUtils.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAnalysis.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMProfileData.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMObject.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMCore.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMC.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBinaryFormat.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoCodeView.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoMSF.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lz",
+					"-lcurses",
+					"-lm",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDemangle.a,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "oclint-0.13.1";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		4DCA6F5A5344458FA231B5AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		57DECB20F185440DA8BF0D12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		6DF18A20275344AB95126A76 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/Users/langlib/Desktop/oclint/countly/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-DNDEBUG",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintDriver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		8A7D2C318E6A4F508DE1600E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		9352F6D3A4DE4E86BA70D168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		950EBD802A22438A939975B8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		972099C07B144973A5E3C5C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/build";
+			};
+			name = Release;
+		};
+		980ACDE749C342F4B351E500 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		9CE16252706348029259212D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		9F4F348C8E7F4680A2B33495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		A627120B7F8C40478DB92D2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		AEB148CC13F64743BF71FBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		B87D0368A7A540F394103BB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/Users/langlib/Desktop/oclint/countly/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintDriver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		B9844FF3F99E4501A47A11A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/Users/langlib/Desktop/oclint/countly/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-DNDEBUG",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintDriver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		C83C4134E8964470AE1678D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-driver/bin/Release";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib /Users/langlib/Desktop/oclint/build/countly/lib /usr/local/opt/openssl/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/llvm/lib,
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib",
+					"/Users/langlib/Desktop/oclint/build/countly/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/build/countly/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-DNDEBUG",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/langlib/Desktop/oclint/build/oclint-driver/lib/Release/libOCLintDriver.a",
+					"-lOCLintRuleSet",
+					"-lOCLintCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangRewriteFrontend",
+					"-lclangRewrite",
+					"-lclangTooling",
+					"-lclangFrontend",
+					"-lclangDriver",
+					"-lclangSerialization",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangAnalysis",
+					"-lclangEdit",
+					"-lclangASTMatchers",
+					"-lclangAST",
+					"-lclangLex",
+					"-lclangBasic",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAsmParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMInstrumentation.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMOption.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lCountly",
+					/usr/local/opt/openssl/lib/libssl.a,
+					/usr/local/opt/openssl/lib/libcrypto.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMTransformUtils.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAnalysis.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMProfileData.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMObject.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMCore.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMC.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBinaryFormat.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoCodeView.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoMSF.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lz",
+					"-lcurses",
+					"-lm",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDemangle.a,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "oclint-0.13.1";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		D2FFE637B3ED4EF49A35037A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/build";
+			};
+			name = MinSizeRel;
+		};
+		D432DB49CCC642F093C10DED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/Users/langlib/Desktop/oclint/countly/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-DNDEBUG",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintDriver;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		D8A9610240734A86A3C49EA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/build";
+			};
+			name = Debug;
+		};
+		DC6177B408184545878ED2E1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "/Users/langlib/Desktop/oclint/build/oclint-driver/bin/RelWithDebInfo";
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/langlib/Desktop/oclint/llvm/include,
+					"/Users/langlib/Desktop/oclint/oclint-core/include",
+					/include,
+					/usr/local/opt/openssl/include,
+					"/Users/langlib/Desktop/oclint/oclint-driver/include",
+				);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/langlib/Desktop/oclint/llvm/lib /Users/langlib/Desktop/oclint/build/oclint-core/lib /Users/langlib/Desktop/oclint/build/countly/lib /usr/local/opt/openssl/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/langlib/Desktop/oclint/llvm/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/llvm/lib,
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					"/Users/langlib/Desktop/oclint/build/oclint-core/lib",
+					"/Users/langlib/Desktop/oclint/build/countly/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/langlib/Desktop/oclint/build/countly/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DCOUNTLY_ANALYTICS",
+					"-std=c++11",
+					"-stdlib=libc++",
+					"-fno-rtti",
+					"-Wno-c++11-extensions",
+					"-fPIC",
+					"-fcolor-diagnostics",
+					"-fvisibility-inlines-hidden",
+					"-mmacosx-version-min=10.12",
+					"-DNDEBUG",
+					"-D__STDC_CONSTANT_MACROS",
+					"-D__STDC_FORMAT_MACROS",
+					"-D__STDC_LIMIT_MACROS",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"/Users/langlib/Desktop/oclint/build/oclint-driver/lib/RelWithDebInfo/libOCLintDriver.a",
+					"-lOCLintRuleSet",
+					"-lOCLintCore",
+					"-lclangStaticAnalyzerFrontend",
+					"-lclangStaticAnalyzerCheckers",
+					"-lclangStaticAnalyzerCore",
+					"-lclangRewriteFrontend",
+					"-lclangRewrite",
+					"-lclangTooling",
+					"-lclangFrontend",
+					"-lclangDriver",
+					"-lclangSerialization",
+					"-lclangParse",
+					"-lclangSema",
+					"-lclangAnalysis",
+					"-lclangEdit",
+					"-lclangASTMatchers",
+					"-lclangAST",
+					"-lclangLex",
+					"-lclangBasic",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAsmParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMInstrumentation.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMOption.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lCountly",
+					/usr/local/opt/openssl/lib/libssl.a,
+					/usr/local/opt/openssl/lib/libcrypto.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMTransformUtils.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMAnalysis.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMProfileData.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMObject.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBitReader.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMCParser.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMCore.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMMC.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMBinaryFormat.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoCodeView.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDebugInfoMSF.a,
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMSupport.a,
+					"-lz",
+					"-lcurses",
+					"-lm",
+					/Users/langlib/Desktop/oclint/llvm/lib/libLLVMDemangle.a,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "oclint-0.13.1";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		DCB7723F4A6C4DD9BFC9CC8E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		DD20BBB2E0A3470C9F9AF6E2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E06B27CDC2124F9191EE57F9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-driver";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		063A8F18D86F47B0A23F6620 /* Build configuration list for PBXProject "OCLINT_DRIVER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A9610240734A86A3C49EA8 /* Debug */,
+				972099C07B144973A5E3C5C1 /* Release */,
+				D2FFE637B3ED4EF49A35037A /* MinSizeRel */,
+				DD20BBB2E0A3470C9F9AF6E2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		08A07345CE864DFFA72D5483 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9352F6D3A4DE4E86BA70D168 /* Debug */,
+				A627120B7F8C40478DB92D2D /* Release */,
+				E06B27CDC2124F9191EE57F9 /* MinSizeRel */,
+				9CE16252706348029259212D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7E5F731F9EC3494899C36616 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4F348C8E7F4680A2B33495 /* Debug */,
+				4DCA6F5A5344458FA231B5AB /* Release */,
+				8A7D2C318E6A4F508DE1600E /* MinSizeRel */,
+				DCB7723F4A6C4DD9BFC9CC8E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		85DBFBA96B5D4A60A966A918 /* Build configuration list for PBXNativeTarget "oclint-0.13.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B97B0FCA9A4140811B9D31 /* Debug */,
+				C83C4134E8964470AE1678D7 /* Release */,
+				0BFBD27EE6344ADC8C753A4C /* MinSizeRel */,
+				DC6177B408184545878ED2E1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B045701B9C974D318A9D659F /* Build configuration list for PBXAggregateTarget "intrinsics_gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB148CC13F64743BF71FBD6 /* Debug */,
+				57DECB20F185440DA8BF0D12 /* Release */,
+				950EBD802A22438A939975B8 /* MinSizeRel */,
+				980ACDE749C342F4B351E500 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BB32ECA4379E434C87FC5A8F /* Build configuration list for PBXNativeTarget "OCLintDriver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B87D0368A7A540F394103BB4 /* Debug */,
+				B9844FF3F99E4501A47A11A2 /* Release */,
+				6DF18A20275344AB95126A76 /* MinSizeRel */,
+				D432DB49CCC642F093C10DED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E31852858FD434EBEB1F930 /* Project object */;
+}

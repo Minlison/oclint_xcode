@@ -1,0 +1,4 @@
+/Users/langlib/Desktop/oclint/build/oclint-metrics/CMakeFiles/intrinsics_gen.dir
+/Users/langlib/Desktop/oclint/build/oclint-metrics/CMakeFiles/ALL_BUILD.dir
+/Users/langlib/Desktop/oclint/build/oclint-metrics/CMakeFiles/ZERO_CHECK.dir
+/Users/langlib/Desktop/oclint/build/oclint-metrics/lib/CMakeFiles/OCLintMetric.dir

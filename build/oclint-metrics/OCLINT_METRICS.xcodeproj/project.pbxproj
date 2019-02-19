@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		26AA1EE05E034FF882028068 /* intrinsics_gen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 547D3066D74A455F837B0A19 /* Build configuration list for PBXAggregateTarget "intrinsics_gen" */;
+			buildPhases = (
+			);
+			dependencies = (
+				44F03DB4BC8D4EF7819FE557 /* PBXTargetDependency */,
+			);
+			name = intrinsics_gen;
+			productName = intrinsics_gen;
+		};
+		4C223F330AF14378B6329AEF /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5EEC51DC9B4B43F5A7DE7A66 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				02BF98D997FD4CF79741C21E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		5203D71560EB479EBDB705B6 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 54B931A3540D4D719CEF252D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3C48A253A1A44B00BCFB64E6 /* CMake Rules */,
+			);
+			dependencies = (
+				D200CD98933E4998B520E523 /* PBXTargetDependency */,
+				A1D2CFBCD59D4C7394807705 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3F19EB05868A404C80040852 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DF9CCBB38D0D409AB16BF8E8 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CMakeLists.txt */; };
+		8141A66076BA4F3DBE0A05B3 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/StmtDepthMetric.cpp */ = {isa = PBXBuildFile; fileRef = FE613156BF7C4BE493C5A7AA /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/StmtDepthMetric.cpp */; };
+		9F7DBEABDF0A4891AFCED715 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NPathComplexityMetric.cpp */ = {isa = PBXBuildFile; fileRef = 59C1FBD74B7E40EEAE42E094 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NPathComplexityMetric.cpp */; };
+		BD07AEC45B9445D2B2EBA5AE /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CyclomaticComplexityMetric.cpp */ = {isa = PBXBuildFile; fileRef = 5462BE4C3FAB491CBF1AD21E /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CyclomaticComplexityMetric.cpp */; };
+		BED5BD00590E4B9688992D67 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NcssMetric.cpp */ = {isa = PBXBuildFile; fileRef = D09F33DCF0AB41CBA6D4651D /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NcssMetric.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		66804A79D9DE4CC59ECF1282 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		A0E2B2734E50442CA60498F4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BD90A25A04494A3098F3189F /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C45187D785C04575B357523A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		31A5A3BD9CC146F0BBF4959B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8CD34F5DA24362A7FA6855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C223F330AF14378B6329AEF;
+			remoteInfo = ZERO_CHECK;
+		};
+		3206EC0249D14CA49D4F6638 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8CD34F5DA24362A7FA6855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C223F330AF14378B6329AEF;
+			remoteInfo = ZERO_CHECK;
+		};
+		97A6B00210184D6FBCFF1DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8CD34F5DA24362A7FA6855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B7CD53E9D3640A9AFE438FF;
+			remoteInfo = OCLintMetric;
+		};
+		AD42265392FA44F9864E7F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB8CD34F5DA24362A7FA6855 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C223F330AF14378B6329AEF;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		351AD7A6249F43A3AB8EE4C0 /* /Users/langlib/Desktop/oclint/oclint-metrics/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3EA5C12133164E9DACD0F4BF /* /Users/langlib/Desktop/oclint/oclint-metrics/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4D255AD07B5E4EDABDFA5075 /* OCLintMetric */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libOCLintMetric.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5462BE4C3FAB491CBF1AD21E /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CyclomaticComplexityMetric.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = CyclomaticComplexityMetric.cpp; path = lib/CyclomaticComplexityMetric.cpp; sourceTree = SOURCE_ROOT; };
+		59C1FBD74B7E40EEAE42E094 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NPathComplexityMetric.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NPathComplexityMetric.cpp; path = lib/NPathComplexityMetric.cpp; sourceTree = SOURCE_ROOT; };
+		D09F33DCF0AB41CBA6D4651D /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NcssMetric.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = NcssMetric.cpp; path = lib/NcssMetric.cpp; sourceTree = SOURCE_ROOT; };
+		DF9CCBB38D0D409AB16BF8E8 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = lib/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FE613156BF7C4BE493C5A7AA /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/StmtDepthMetric.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = StmtDepthMetric.cpp; path = lib/StmtDepthMetric.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1F1B21FCE3674D0881261AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D255AD07B5E4EDABDFA5075 /* OCLintMetric */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C98407EEE7947D6B713BBE4 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		77BF32BD4F724A5D90AD819A = {
+			isa = PBXGroup;
+			children = (
+				BE1DCD58E4DB460D8E531D21 /* intrinsics_gen */,
+				E6DE6659F09641EFBC4F1791 /* ALL_BUILD */,
+				80937DB38C094BC0A0BD84A5 /* OCLintMetric */,
+				1F1B21FCE3674D0881261AEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80937DB38C094BC0A0BD84A5 /* OCLintMetric */ = {
+			isa = PBXGroup;
+			children = (
+				FBBC68CF4A2C4BC88AD4380B /* Source Files */,
+				DF9CCBB38D0D409AB16BF8E8 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CMakeLists.txt */,
+			);
+			name = OCLintMetric;
+			sourceTree = "<group>";
+		};
+		BE1DCD58E4DB460D8E531D21 /* intrinsics_gen */ = {
+			isa = PBXGroup;
+			children = (
+				351AD7A6249F43A3AB8EE4C0 /* /Users/langlib/Desktop/oclint/oclint-metrics/CMakeLists.txt */,
+			);
+			name = intrinsics_gen;
+			sourceTree = "<group>";
+		};
+		E6DE6659F09641EFBC4F1791 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				2C98407EEE7947D6B713BBE4 /* CMake Rules */,
+				3EA5C12133164E9DACD0F4BF /* /Users/langlib/Desktop/oclint/oclint-metrics/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		FBBC68CF4A2C4BC88AD4380B /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5462BE4C3FAB491CBF1AD21E /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CyclomaticComplexityMetric.cpp */,
+				59C1FBD74B7E40EEAE42E094 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NPathComplexityMetric.cpp */,
+				D09F33DCF0AB41CBA6D4651D /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NcssMetric.cpp */,
+				FE613156BF7C4BE493C5A7AA /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/StmtDepthMetric.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B7CD53E9D3640A9AFE438FF /* OCLintMetric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320C3CFFC14E4FE88351EB9E /* Build configuration list for PBXNativeTarget "OCLintMetric" */;
+			buildPhases = (
+				B677DF70440A4A4884FAB61D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCA58234FD8B4BBD8C196A7F /* PBXTargetDependency */,
+			);
+			name = OCLintMetric;
+			productName = OCLintMetric;
+			productReference = 4D255AD07B5E4EDABDFA5075 /* OCLintMetric */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB8CD34F5DA24362A7FA6855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 32546E6D762A4F98BD1711E8 /* Build configuration list for PBXProject "OCLINT_METRICS" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BD90A25A04494A3098F3189F /* Debug */,
+				C45187D785C04575B357523A /* Release */,
+				66804A79D9DE4CC59ECF1282 /* MinSizeRel */,
+				A0E2B2734E50442CA60498F4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 77BF32BD4F724A5D90AD819A;
+			projectDirPath = "/Users/langlib/Desktop/oclint/oclint-metrics";
+			projectRoot = "";
+			targets = (
+				5203D71560EB479EBDB705B6 /* ALL_BUILD */,
+				2B7CD53E9D3640A9AFE438FF /* OCLintMetric */,
+				4C223F330AF14378B6329AEF /* ZERO_CHECK */,
+				26AA1EE05E034FF882028068 /* intrinsics_gen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02BF98D997FD4CF79741C21E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-metrics -f /Users/langlib/Desktop/oclint/build/oclint-metrics/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0E7DA40F3002431DB53084D8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0F14EF102DCD4B11A4A94EFA = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3C48A253A1A44B00BCFB64E6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/langlib/Desktop/oclint/build/oclint-metrics -f /Users/langlib/Desktop/oclint/build/oclint-metrics/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		828727ACF2F748E49958FD0B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B677DF70440A4A4884FAB61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD07AEC45B9445D2B2EBA5AE /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/CyclomaticComplexityMetric.cpp */,
+				9F7DBEABDF0A4891AFCED715 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NPathComplexityMetric.cpp */,
+				BED5BD00590E4B9688992D67 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/NcssMetric.cpp */,
+				8141A66076BA4F3DBE0A05B3 /* /Users/langlib/Desktop/oclint/oclint-metrics/lib/StmtDepthMetric.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44F03DB4BC8D4EF7819FE557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C223F330AF14378B6329AEF /* ZERO_CHECK */;
+			targetProxy = 31A5A3BD9CC146F0BBF4959B /* PBXContainerItemProxy */;
+		};
+		A1D2CFBCD59D4C7394807705 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C223F330AF14378B6329AEF /* ZERO_CHECK */;
+			targetProxy = 3206EC0249D14CA49D4F6638 /* PBXContainerItemProxy */;
+		};
+		CCA58234FD8B4BBD8C196A7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C223F330AF14378B6329AEF /* ZERO_CHECK */;
+			targetProxy = AD42265392FA44F9864E7F3D /* PBXContainerItemProxy */;
+		};
+		D200CD98933E4998B520E523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B7CD53E9D3640A9AFE438FF /* OCLintMetric */;
+			targetProxy = 97A6B00210184D6FBCFF1DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		043AAC4786E643E7817C8742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		08674053BA484104A3239647 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1C76F8A1DC0347E6AFCDC365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-metrics/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12      -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintMetric;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2B4B5DB9F25841F09B0B0522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/build";
+			};
+			name = Debug;
+		};
+		2E6E9ED7CFA04C859FFFA6FF /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/build";
+			};
+			name = MinSizeRel;
+		};
+		3A7D92AB152E48E595DF86C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		4EA677B95974405387E19BF7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5F0C7BBEED7B4C00A6304CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-metrics/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintMetric;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		652F1AF193F745AA9741BBC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7533C4BCB8D94706A3EE558B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		87F6778ED1E44E23898AEAAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8EC2FC2931E3409D94016208 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-metrics/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12     -DNDEBUG   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintMetric;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		984DF8CAB6F94D4CAF30097D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/build";
+			};
+			name = RelWithDebInfo;
+		};
+		A70616C88E03423C97A815F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C88F769CBBC7409D8CF8A386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/build";
+			};
+			name = Release;
+		};
+		CEA6F9C5AD9645E58C112C4F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D02621DF6ACF4CD5A15D2B4A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/langlib/Desktop/oclint/llvm/include,"/Users/langlib/Desktop/oclint/oclint-metrics/include");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "       -std=c++11 -stdlib=libc++  -fno-rtti -Wno-c++11-extensions -fPIC -fcolor-diagnostics -fvisibility-inlines-hidden -mmacosx-version-min=10.12        -DNDEBUG   -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = OCLintMetric;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics/lib";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D1DB8ABF0CC947CB9C245607 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D8AD5FD0CADD4FF29003B8B9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F3837623A5E54982BFD38CDC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = intrinsics_gen;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/langlib/Desktop/oclint/build/oclint-metrics";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		320C3CFFC14E4FE88351EB9E /* Build configuration list for PBXNativeTarget "OCLintMetric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C76F8A1DC0347E6AFCDC365 /* Debug */,
+				5F0C7BBEED7B4C00A6304CC5 /* Release */,
+				8EC2FC2931E3409D94016208 /* MinSizeRel */,
+				D02621DF6ACF4CD5A15D2B4A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32546E6D762A4F98BD1711E8 /* Build configuration list for PBXProject "OCLINT_METRICS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4B5DB9F25841F09B0B0522 /* Debug */,
+				C88F769CBBC7409D8CF8A386 /* Release */,
+				2E6E9ED7CFA04C859FFFA6FF /* MinSizeRel */,
+				984DF8CAB6F94D4CAF30097D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		547D3066D74A455F837B0A19 /* Build configuration list for PBXAggregateTarget "intrinsics_gen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A7D92AB152E48E595DF86C1 /* Debug */,
+				652F1AF193F745AA9741BBC0 /* Release */,
+				F3837623A5E54982BFD38CDC /* MinSizeRel */,
+				D1DB8ABF0CC947CB9C245607 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54B931A3540D4D719CEF252D /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7533C4BCB8D94706A3EE558B /* Debug */,
+				87F6778ED1E44E23898AEAAE /* Release */,
+				4EA677B95974405387E19BF7 /* MinSizeRel */,
+				08674053BA484104A3239647 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5EEC51DC9B4B43F5A7DE7A66 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043AAC4786E643E7817C8742 /* Debug */,
+				A70616C88E03423C97A815F6 /* Release */,
+				D8AD5FD0CADD4FF29003B8B9 /* MinSizeRel */,
+				CEA6F9C5AD9645E58C112C4F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB8CD34F5DA24362A7FA6855 /* Project object */;
+}

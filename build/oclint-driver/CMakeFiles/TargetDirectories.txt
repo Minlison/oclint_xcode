@@ -1,0 +1,5 @@
+/Users/langlib/Desktop/oclint/build/oclint-driver/CMakeFiles/oclint-0.13.1.dir
+/Users/langlib/Desktop/oclint/build/oclint-driver/CMakeFiles/intrinsics_gen.dir
+/Users/langlib/Desktop/oclint/build/oclint-driver/CMakeFiles/ALL_BUILD.dir
+/Users/langlib/Desktop/oclint/build/oclint-driver/CMakeFiles/ZERO_CHECK.dir
+/Users/langlib/Desktop/oclint/build/oclint-driver/lib/CMakeFiles/OCLintDriver.dir
